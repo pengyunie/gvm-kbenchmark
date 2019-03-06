@@ -1,0 +1,1 @@
+array_37_init_inner_array_type

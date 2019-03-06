@@ -1,0 +1,1 @@
+inner_st_803_in_intf_are_static

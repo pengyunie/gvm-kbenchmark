@@ -1,0 +1,1 @@
+inner_st_705_inherit_inner_decl

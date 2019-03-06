@@ -1,0 +1,1 @@
+local_cl_83_inherit_static_fields

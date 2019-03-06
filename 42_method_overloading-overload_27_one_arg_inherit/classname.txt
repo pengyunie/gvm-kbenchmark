@@ -1,0 +1,1 @@
+overload_27_one_arg_inherit

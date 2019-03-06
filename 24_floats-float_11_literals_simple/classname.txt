@@ -1,0 +1,1 @@
+float_11_literals_simple

@@ -1,0 +1,1 @@
+static_i_trig_206_intf_f_call_init

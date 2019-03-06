@@ -1,0 +1,1 @@
+local_cl_956_instantiate_itself

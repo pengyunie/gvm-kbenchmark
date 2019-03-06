@@ -1,0 +1,1 @@
+static_f_init_105_forward_assign

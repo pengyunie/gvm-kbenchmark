@@ -1,0 +1,1 @@
+local_cl_955_encl_vars_in_inst_init

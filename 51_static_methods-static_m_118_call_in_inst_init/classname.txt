@@ -1,0 +1,1 @@
+static_m_118_call_in_inst_init

@@ -1,0 +1,1 @@
+interface_61_class_subtype_of_intf_diamond

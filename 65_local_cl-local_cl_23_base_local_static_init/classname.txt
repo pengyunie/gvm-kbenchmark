@@ -1,0 +1,1 @@
+local_cl_23_base_local_static_init

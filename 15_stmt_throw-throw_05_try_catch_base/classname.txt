@@ -1,0 +1,1 @@
+throw_05_try_catch_base

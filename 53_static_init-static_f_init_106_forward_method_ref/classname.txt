@@ -1,0 +1,1 @@
+static_f_init_106_forward_method_ref
