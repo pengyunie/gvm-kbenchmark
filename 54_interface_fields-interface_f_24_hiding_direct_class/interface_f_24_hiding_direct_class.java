@@ -9,11 +9,11 @@ public class interface_f_24_hiding_direct_class {
   public static void main(String[] args) {
     A a = new A();
     System.out.print("v instance context: ");
-    System.out.println(a.v + " " + ((I1)a).v + " " + a.getV() + " " + a.getThisV());
+    System.out.print(a.v); System.out.print(" "); System.out.print(((I1)a).v); System.out.print(" "); System.out.print(a.getV()); System.out.print(" "); System.out.println(a.getThisV());
     System.out.print("v static context  : ");
-    System.out.println(A.v + " " + I1.v + " " + A.staticGetV());
+    System.out.print(A.v); System.out.print(" "); System.out.print(I1.v); System.out.print(" "); System.out.println(A.staticGetV());
     System.out.print("u instance context: ");
-    System.out.println(a.u + " " + ((I1)a).u + " " + a.getU() + " " + a.getThisU());
+    System.out.print(a.u); System.out.print(" "); System.out.print(((I1)a).u); System.out.print(" "); System.out.print(a.getU()); System.out.print(" "); System.out.println(a.getThisU());
 
     System.out.println("Done!");
   }

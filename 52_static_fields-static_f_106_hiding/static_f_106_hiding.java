@@ -28,18 +28,18 @@ public class static_f_106_hiding {
     c.instTestA();
     c.thisQTestA();
     System.out.print("a.field:        ");
-    System.out.println("a=" + ((A)c).a + " b=" + ((A)c).b + " c=" + ((A)c).c);
+    System.out.print("a="); System.out.print(((A)c).a); System.out.print(" b="); System.out.print(((A)c).b); System.out.print(" c="); System.out.println(((A)c).c);
     System.out.print("A.field:        ");
-    System.out.println("a=" + A.a + " c=" + A.c);
+    System.out.print("a="); System.out.print(A.a); System.out.print(" c="); System.out.println(A.c);
 
     System.out.println("\nAccess fields in the context of class B:");
     c.staticTestB();
     c.instTestB();
     c.thisQTestB();
     System.out.print("b.field:        ");
-    System.out.println("a=" + ((B)c).a + " b=" + ((B)c).b + " c=" + ((B)c).c);
+    System.out.print("a="); System.out.print(((B)c).a); System.out.print(" b="); System.out.print(((B)c).b); System.out.print(" c="); System.out.println(((B)c).c);
     System.out.print("B.field:        ");
-    System.out.println("a=" + B.a + " b=" + B.b);
+    System.out.print("a="); System.out.print(B.a); System.out.print(" b="); System.out.println(B.b);
     c.superQTestB();
 
     System.out.println("\nAccess fields in the context of class C:");
@@ -47,9 +47,9 @@ public class static_f_106_hiding {
     c.instTestC();
     c.thisQTestC();
     System.out.print("c.field:        ");
-    System.out.println("a=" + c.a + " b=" + c.b + " c=" + c.c);
+    System.out.print("a="); System.out.print(c.a); System.out.print(" b="); System.out.print(c.b); System.out.print(" c="); System.out.println(c.c);
     System.out.print("C.field:        ");
-    System.out.println("a=" + C.a + " b=" + C.b);
+    System.out.print("a="); System.out.print(C.a); System.out.print(" b="); System.out.println(C.b);
     c.superQTestC();
 
     System.out.println("Done!");
