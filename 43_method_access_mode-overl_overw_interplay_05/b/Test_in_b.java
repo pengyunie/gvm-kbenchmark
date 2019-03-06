@@ -8,7 +8,7 @@ import a.*;
 public class Test_in_b {
 
   public Test_in_b() {
-    System.out.println("Call: ((A)C).f, ((B)C).f, ((C)C).f , from "+getClass().getName()+":");
+    System.out.print("Call: ((A)C).f, ((B)C).f, ((C)C).f , from "); System.out.print(getClass().getName()); System.out.println(":");
 
     C c = new C();
     ((A)c).f((short)0);

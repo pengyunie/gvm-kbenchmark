@@ -24,6 +24,6 @@ class main {
   }
 
   void f(Object a, Object b) {
-    System.out.println(a+" "+b);
+    System.out.print(a); System.out.print(" "); System.out.println(b);
   }
 }

@@ -16,7 +16,7 @@ class O {
 
   O(int v) {
     this.v = v;
-    System.out.println("O.O(" + v + ")");
+    System.out.print("O.O("); System.out.print(v ); System.out.println( ")");
   }
 
   public String toString() { return "O[v=" + v + "]";}
@@ -28,7 +28,7 @@ class O {
     }
     
     A(int a) {
-      System.out.println("O.A.A(" + a + ")");
+      System.out.print("O.A.A("); System.out.print(a ); System.out.println( ")");
     }
   }
 }

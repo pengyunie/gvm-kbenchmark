@@ -24,12 +24,12 @@ class O {
     String af() {return "af()";}
 
     void test() {
-      System.out.println("O.A: av   = " + av);
-      System.out.println("O.A: af() = " + af());
-      System.out.println("O.A: ov   = " + ov);
-      System.out.println("O.A: of() = " + of());
-      System.out.println("O.A: sv   = " + sv);
-      System.out.println("O.A: sf() = " + sf());
+      System.out.print("O.A: av   = "); System.out.println( av);
+      System.out.print("O.A: af() = "); System.out.println( af());
+      System.out.print("O.A: ov   = "); System.out.println( ov);
+      System.out.print("O.A: of() = "); System.out.println( of());
+      System.out.print("O.A: sv   = "); System.out.println( sv);
+      System.out.print("O.A: sf() = "); System.out.println( sf());
     }
   }
 }

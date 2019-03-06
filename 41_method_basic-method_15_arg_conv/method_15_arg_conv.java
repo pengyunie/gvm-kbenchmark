@@ -22,6 +22,6 @@ class test {
   }
 
   void f(int a, int b, Object o, String s) {
-    System.out.println(a + " " + b + " " + o + " " + s);
+    System.out.print(a ); System.out.print(" "); System.out.print(b ); System.out.print(" "); System.out.print(o ); System.out.print(" "); System.out.println( s);
   }
 }

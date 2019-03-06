@@ -11,8 +11,8 @@ import p2.I1;
 
 public class packages_54_interf_extends {
   public static void main(String[] args) {
-    System.out.println("I2.vi = " + I2.vi);
-    System.out.println("I3.vi = " + I3.vi);
+    System.out.print("I2.vi = "); System.out.println( I2.vi);
+    System.out.print("I3.vi = "); System.out.println( I3.vi);
     System.out.println("Done!");
   }
 }

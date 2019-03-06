@@ -6,7 +6,7 @@ When a static member is accessed. Init is triggered for the class that declared
 
 public class static_i_trig_112_actual_init_class_2 {
   public static void main(String[] args) {
-    System.out.println("" + C.v);
+    System.out.print(""); System.out.println( C.v);
     System.out.println("Done!");
   }
 }
@@ -22,7 +22,7 @@ class A {
   }
 
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 

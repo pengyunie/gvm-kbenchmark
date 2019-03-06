@@ -16,7 +16,7 @@ class A {
   }
 
   int f(int p) {
-    System.out.println("f(" + p + ")");
+    System.out.print("f("); System.out.print(p ); System.out.println( ")");
     return p;
   }
 }

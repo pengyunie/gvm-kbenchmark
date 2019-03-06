@@ -8,7 +8,7 @@ public class return_13_try_catch_finally_ret {
 
 class test {
   test() {
-    System.out.println("f() = " + f());
+    System.out.print("f() = "); System.out.println( f());
   }
 
   int f() {

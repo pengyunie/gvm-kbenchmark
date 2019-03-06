@@ -12,7 +12,7 @@ public class static_f_107_no_overwriting {
     B.a = 5;
     B.b = 6;
     A ab = new B();
-    System.out.println(ab.a + " " + ab.b + " " + ab.c + " " + ab.d);
+    System.out.print(ab.a ); System.out.print(" "); System.out.print(ab.b ); System.out.print(" "); System.out.print(ab.c ); System.out.print(" "); System.out.println( ab.d);
     System.out.println("Done!");
   }
 }

@@ -7,7 +7,7 @@ Multiple interface inheritance with indirect multi-hiding.
 
 public class interface_f_33_multi_inh_multi_hiding {
   public static void main(String[] args) {
-    System.out.println(I1.v + " " + I2.v + " " +I3.v + " " + I4.v);
+    System.out.print(I1.v ); System.out.print(" "); System.out.print(I2.v ); System.out.print(" "); System.out.print(I3.v ); System.out.print(" "); System.out.println( I4.v);
     System.out.println("Done!");
   }
 }

@@ -4,14 +4,14 @@ Two classes, call of superclass constructor with arguments.
 
 class A {
   A(int a, int b) {
-    System.out.println("A.A("+a+","+b+")");
+    System.out.print("A.A("); System.out.print(a); System.out.print(","); System.out.print(b); System.out.println(")");
   }
 }
 
 class B extends A {
   B(int a, int b) {
     super(a-1, b-1);
-    System.out.println("B.B("+a+","+b+")");
+    System.out.print("B.B("); System.out.print(a); System.out.print(","); System.out.print(b); System.out.println(")");
   }
 }
 

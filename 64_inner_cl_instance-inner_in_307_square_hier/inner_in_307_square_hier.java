@@ -58,11 +58,11 @@ class O extends S {
     }
 
     void test() {
-      System.out.println("O.B: sv          = " + sv);
-      System.out.println("O.B: sf()        = " + sf());
-      System.out.println("O.B: O.this.sv   = " + O.this.sv);
-      System.out.println("O.B: O.this.sf() = " + O.this.sf());
-      System.out.println("O.B: af()        = " + af());
+      System.out.print("O.B: sv          = "); System.out.println( sv);
+      System.out.print("O.B: sf()        = "); System.out.println( sf());
+      System.out.print("O.B: O.this.sv   = "); System.out.println( O.this.sv);
+      System.out.print("O.B: O.this.sf() = "); System.out.println( O.this.sf());
+      System.out.print("O.B: af()        = "); System.out.println( af());
     }
   }
 }

@@ -20,9 +20,9 @@ class B extends A {
 public class fields_24_super_assign {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println("((A) b).x = " + ((A) b).x);
+    System.out.print("((A) b).x = "); System.out.println( ((A) b).x);
     b.setSuperX(2);
-    System.out.println("((A) b).x = " + ((A) b).x);
+    System.out.print("((A) b).x = "); System.out.println( ((A) b).x);
     System.out.println("Done!");
   }
 }

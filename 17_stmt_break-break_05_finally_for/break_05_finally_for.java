@@ -10,11 +10,11 @@ public class break_05_finally_for {
         if (i >= 5) break;
         System.out.print(i);
       } finally {
-        System.out.print("-"+ i+ " ");
+        System.out.print("-"); System.out.print(i); System.out.print( " ");
       }
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

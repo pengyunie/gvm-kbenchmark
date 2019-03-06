@@ -4,14 +4,14 @@ Derived class constructor calls base class constructor through super().
 
 class A {
   A(int a) {
-    System.out.println("A(" + a + ")");
+    System.out.print("A("); System.out.print(a ); System.out.println( ")");
   }
 }
 
 class B extends A {
   B(int a) {
     super(a);
-    System.out.println("B(" + a + ")");
+    System.out.print("B("); System.out.print(a ); System.out.println( ")");
   }
 }
 

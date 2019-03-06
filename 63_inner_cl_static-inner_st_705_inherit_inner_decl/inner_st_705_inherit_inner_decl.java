@@ -29,6 +29,6 @@ class A {
 
 class B extends A {
     static void test() {
-      System.out.println("Inner.f(): " + Inner.f());
+      System.out.print("Inner.f(): "); System.out.println( Inner.f());
     }
 }

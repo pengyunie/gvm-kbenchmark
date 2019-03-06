@@ -9,10 +9,10 @@ Interface subtype of other.
 public class interface_62_intf_subtype_of_other {
   public static void main(String[] args) {
     Tester t = new Tester();
-    System.out.println("f(IA):       " + t.f((IA)null));
-    System.out.println("f(IA[]):     " + t.f((IA[])null));
-    System.out.println("f(IA[][]):   " + t.f((IA[][])null));
-    System.out.println("f(IA[][][]): " + t.f((IA[][][])null));
+    System.out.print("f(IA):       "); System.out.println( t.f((IA)null));
+    System.out.print("f(IA[]):     "); System.out.println( t.f((IA[])null));
+    System.out.print("f(IA[][]):   "); System.out.println( t.f((IA[][])null));
+    System.out.print("f(IA[][][]): "); System.out.println( t.f((IA[][][])null));
 
     System.out.println("Done!");
   }

@@ -33,7 +33,7 @@ class A {
       static String c = "Inner.c";
 
       static void test() {
-        System.out.println(a + " " + b + " " + c);
+        System.out.print(a ); System.out.print(" "); System.out.print(b ); System.out.print(" "); System.out.println( c);
       }
     }
   }

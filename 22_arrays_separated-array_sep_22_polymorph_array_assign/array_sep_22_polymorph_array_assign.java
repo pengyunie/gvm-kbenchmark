@@ -27,7 +27,7 @@ class main {
 class A {
   int id;
   void print() {
-    System.out.println("A:" + id);
+    System.out.print("A:"); System.out.println( id);
   }
 }
 

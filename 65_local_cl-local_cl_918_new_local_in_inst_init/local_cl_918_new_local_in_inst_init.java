@@ -17,7 +17,7 @@ class O {
 
     class Local1 {
       void test() {
-        System.out.println("Local1: a="+a);
+        System.out.print("Local1: a="); System.out.println(a);
       }
     }
 
@@ -26,7 +26,7 @@ class O {
       Local1 local1 = new Local1();
 
       void test() {
-        System.out.println("Local2: a="+a);
+        System.out.print("Local2: a="); System.out.println(a);
         System.out.println("field Local1:");
         local1.test();
         System.out.println();

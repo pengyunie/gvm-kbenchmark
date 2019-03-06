@@ -14,7 +14,7 @@ public class continue_label_03_do_2 {
       int j = i;
       i++;
       if (j % 2 == 0) continue label_1;
-      System.out.print(j+" ");
+      System.out.print(j); System.out.print(" ");
     } while (i<10);
     System.out.println();
     System.out.println("Done!");

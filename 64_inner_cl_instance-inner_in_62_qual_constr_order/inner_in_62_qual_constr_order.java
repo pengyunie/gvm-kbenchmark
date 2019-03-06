@@ -25,14 +25,14 @@ class O {
     String a,b,c;
 
     A(String a, String b, String c) {
-      System.out.println("O.A.A(): a = " + a + ", b = " + b + ", c = " + c);
+      System.out.print("O.A.A(): a = "); System.out.print(a ); System.out.print(", b = "); System.out.print(b ); System.out.print(", c = "); System.out.println( c);
     }
   }
 }
 
 class Tracer {
   static Object trace(Object o) {
-    System.out.println("trace: " + o);
+    System.out.print("trace: "); System.out.println( o);
     return o;
   }
 }

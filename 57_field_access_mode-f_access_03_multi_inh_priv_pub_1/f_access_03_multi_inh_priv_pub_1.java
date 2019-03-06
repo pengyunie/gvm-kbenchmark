@@ -14,8 +14,8 @@ Multiple inherited field, private in class, public in interface.
 public class f_access_03_multi_inh_priv_pub_1 {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println(B.v + " " + b.v + " " + B.staticGetV() + " " + b.getV()
-      + " " + b.getThisV());
+    System.out.print(B.v ); System.out.print(" "); System.out.print(b.v ); System.out.print(" "); System.out.print(B.staticGetV() ); System.out.print(" "); System.out.print(b.getV()
+      ); System.out.print(" "); System.out.println( b.getThisV());
     System.out.println("Done!");
   }
 }

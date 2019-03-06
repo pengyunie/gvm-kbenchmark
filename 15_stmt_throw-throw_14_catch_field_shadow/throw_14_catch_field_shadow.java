@@ -11,7 +11,7 @@ class test {
     try {
       throw new ExThrown();
     } catch (RuntimeException e) {
-      System.out.println("caught exception: " + e.toString());
+      System.out.print("caught exception: "); System.out.println( e.toString());
     }
     System.out.println(e.toString());
   }

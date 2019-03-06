@@ -11,8 +11,8 @@ Access to an interface field. Through a class implementing directly the defined 
 public class interface_f_13_class_target {
   public static void main(String[] args) {
     A a = new A();
-    System.out.println(A.v + " " + a.v + " " + A.staticGetV() + " " + a.getV()
-      + " " + a.getThisV());
+    System.out.print(A.v ); System.out.print(" "); System.out.print(a.v ); System.out.print(" "); System.out.print(A.staticGetV() ); System.out.print(" "); System.out.print(a.getV()
+      ); System.out.print(" "); System.out.println( a.getThisV());
     System.out.println("Done!");
   }
 }

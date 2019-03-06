@@ -5,7 +5,7 @@ Interface init triggered by an unqualified field read from a derived interface.
 
 public class static_i_trig_214_trigger_by_unq_exp {
   public static void main(String[] args) {
-    System.out.println("I2.c= " + I2.c);
+    System.out.print("I2.c= "); System.out.println( I2.c);
     System.out.println("Done!");
   }
 }
@@ -21,7 +21,7 @@ interface I2 extends I1 {
 
 class T {
   static String trace(String s) {
-    System.out.println("trace(" + s + ")");
+    System.out.print("trace("); System.out.print(s ); System.out.println( ")");
     return s;
   }
 }

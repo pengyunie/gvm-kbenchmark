@@ -51,7 +51,7 @@ class B {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

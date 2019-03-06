@@ -9,8 +9,8 @@ public class exp_type_26_cond_op {
   public static void main(String[] args) {
      B b = new B(); A a = new A();
 
-    System.out.println("f(true  ? fTrue() ? a : a : fFalse() ? b : b): " + f(true  ? fTrue() ? a : a : fFalse() ? b : b));
-    System.out.println("f(false ? fTrue() ? a : a : fFalse() ? b : b): " + f(false ? fTrue() ? a : a : fFalse() ? b : b));
+    System.out.print("f(true  ? fTrue() ? a : a : fFalse() ? b : b): "); System.out.println( f(true  ? fTrue() ? a : a : fFalse() ? b : b));
+    System.out.print("f(false ? fTrue() ? a : a : fFalse() ? b : b): "); System.out.println( f(false ? fTrue() ? a : a : fFalse() ? b : b));
 
     System.out.println("Done!");
   }

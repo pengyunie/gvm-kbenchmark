@@ -16,7 +16,7 @@ public class constr_91_name_collision {
     A a = new A();
     a.A();
     a.A = 2;
-    System.out.println("A field = "+a.A);
+    System.out.print("A field = "); System.out.println(a.A);
 
     System.out.println("Done!");
   }
@@ -28,7 +28,7 @@ class A {
     this();
     A();
     A = 1;
-    System.out.println("A field = "+A);
+    System.out.print("A field = "); System.out.println(A);
   }
 
   A() {

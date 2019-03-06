@@ -9,11 +9,11 @@ import pt.Test;
 
 public class packages_42_multi_t_imp_typical {
   public static void main(String[] args) {
-    System.out.println("main   : A = " + new A());
-    System.out.println("main   : B = " + new B());
+    System.out.print("main   : A = "); System.out.println( new A());
+    System.out.print("main   : B = "); System.out.println( new B());
     Test test = new Test();
-    System.out.println("pt.Test: A = " + test.createA());
-    System.out.println("pt.Test: B = " + test.createB());
+    System.out.print("pt.Test: A = "); System.out.println( test.createA());
+    System.out.print("pt.Test: B = "); System.out.println( test.createB());
     System.out.println("Done!");
   }
 }

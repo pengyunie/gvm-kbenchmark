@@ -22,7 +22,7 @@ class O {
       }
 
       Local(String s) {
-        System.out.println("Local: "+ s);
+        System.out.print("Local: "); System.out.println( s);
       }
     }
 

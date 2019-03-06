@@ -47,9 +47,9 @@ class main {
     vo[2] = new Object();
     vo[3] = null;
     Object[] vo2 = (Object[])vo.clone();
-    System.out.print("Object[] : "+ (vo == vo2) + " : ");
+    System.out.print("Object[] : "); System.out.print((vo == vo2)); System.out.print( " : ");
     for(int i=0; i<vo2.length; i++) {
-      System.out.print((vo[i] == vo2[i]) + " ");
+      System.out.print((vo[i] == vo2[i])); System.out.print( " ");
     }
     System.out.println();
 
@@ -72,21 +72,21 @@ class main {
   }
 
   void cloneTest(int[] v1, int[] v2) {
-    System.out.print((v1 == v2)+" : ");
+    System.out.print((v1 == v2)); System.out.print(" : ");
     if (v1 == null) {
-      System.out.println(v1 + "+" + v2);
+      System.out.print(v1 ); System.out.print("+"); System.out.println( v2);
     } else {
       for(int i=0; i<v1.length; i++) {
-        System.out.print((v1[i] == v2[i]) + " ");
+        System.out.print((v1[i] == v2[i])); System.out.print( " ");
       }
       System.out.println();
     }
   }
 
   void matrixCloneTest(int[][] m1, int[][] m2) {
-    System.out.println("Matrix " + (m1 == m2)+" : ");
+    System.out.print("Matrix "); System.out.print((m1 == m2)); System.out.println(" : ");
     if (m1 == null) {
-      System.out.println(m1 + "+" + m2);
+      System.out.print(m1 ); System.out.print("+"); System.out.println( m2);
     } else {
       for(int i=0; i<m1.length; i++) {
         cloneTest(m1[i],m2[i]);

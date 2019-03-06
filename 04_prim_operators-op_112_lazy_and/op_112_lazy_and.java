@@ -7,10 +7,10 @@ public class op_112_lazy_and {
 class main {
 
 	main(String[] args) {
-    System.out.println("false && true       = " + (false&&true));
-    System.out.println("true && false       = " + (true&&false));
-    System.out.println("fFalse() && fTrue() = " + (fFalse()&&fTrue()));
-    System.out.println("fTrue() && fFalse() = " + (fTrue()&&fFalse()));
+    System.out.print("false && true       = "); System.out.println( (false&&true));
+    System.out.print("true && false       = "); System.out.println( (true&&false));
+    System.out.print("fFalse() && fTrue() = "); System.out.println( (fFalse()&&fTrue()));
+    System.out.print("fTrue() && fFalse() = "); System.out.println( (fTrue()&&fFalse()));
     System.out.println("Done!");
 	}
 

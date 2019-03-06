@@ -6,7 +6,7 @@ Multiple-inherited field.
 
 public class interface_f_42_multi_inh_multi_path_2 {
   public static void main(String[] args) {
-    System.out.println(B.v + " " + new B().getV());
+    System.out.print(B.v ); System.out.print(" "); System.out.println( new B().getV());
     System.out.println("Done!");
   }
 }

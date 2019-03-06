@@ -37,30 +37,30 @@ public class float_41_promotions_with_float {
   }
 
   static void f(byte a) {
-    System.out.println("byte   a = " + a);
+    System.out.print("byte   a = "); System.out.println( a);
   }
 
   static void f(short a) {
-    System.out.println("short  a = " + a);
+    System.out.print("short  a = "); System.out.println( a);
   }
 
   static void f(int a) {
-    System.out.println("int    a = " + a);
+    System.out.print("int    a = "); System.out.println( a);
   }
 
   static void f(long a) {
-    System.out.println("long   a = " + a);
+    System.out.print("long   a = "); System.out.println( a);
   }
 
   static void f(char a) {
-    System.out.println("char   a = " + a);
+    System.out.print("char   a = "); System.out.println( a);
   }
 
   static void f(float a) {
-    System.out.println("float  a = " + a);
+    System.out.print("float  a = "); System.out.println( a);
   }
 
   static void f(double a) {
-    System.out.println("double a = " + a);
+    System.out.print("double a = "); System.out.println( a);
   }
 }

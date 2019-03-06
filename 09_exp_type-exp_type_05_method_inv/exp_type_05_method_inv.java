@@ -8,8 +8,8 @@ Methods with side effects
 
 public class exp_type_05_method_inv {
   public static void main(String[] args) {
-    System.out.println("f(true  ? fB() : fA()): " + f(true  ? fB() : fA()));
-    System.out.println("f(false ? fB() : fA()): " + f(false ? fB() : fA()));
+    System.out.print("f(true  ? fB() : fA()): "); System.out.println( f(true  ? fB() : fA()));
+    System.out.print("f(false ? fB() : fA()): "); System.out.println( f(false ? fB() : fA()));
     System.out.println("Done!");
   }
 

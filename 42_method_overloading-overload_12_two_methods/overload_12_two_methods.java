@@ -20,18 +20,18 @@ class main {
   }
 
   void f(int a) {
-    System.out.println("f:" +a);
+    System.out.print("f:"); System.out.println(a);
   }
 
   void f(int a, int b) {
-    System.out.println("f:"+a+" "+b);
+    System.out.print("f:"); System.out.print(a); System.out.print(" "); System.out.println(b);
   }
 
   void g(int a) {
-    System.out.println("g:" +a);
+    System.out.print("g:"); System.out.println(a);
   }
 
   void g(int a, int b) {
-    System.out.println("g:"+a+" "+b);
+    System.out.print("g:"); System.out.print(a); System.out.print(" "); System.out.println(b);
   }
 }

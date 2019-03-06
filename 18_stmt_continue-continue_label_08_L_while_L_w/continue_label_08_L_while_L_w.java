@@ -13,7 +13,7 @@ public class continue_label_08_L_while_L_w {
         while(true)
           continue label_1;
       }
-      System.out.print(j+" ");
+      System.out.print(j); System.out.print(" ");
     }
     System.out.println();
     System.out.println("Done!");

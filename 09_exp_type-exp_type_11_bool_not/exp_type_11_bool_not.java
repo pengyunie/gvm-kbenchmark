@@ -6,8 +6,8 @@ boolean b = false, a = true;
 
 public class exp_type_11_bool_not {
   public static void main(String[] args) {
-    System.out.println("f(true  ? !get(false) : !get(true)): " + f(true  ? !get(false) : !get(true)));
-    System.out.println("f(false ? !get(false) : !get(true)): " + f(false ? !get(false) : !get(true)));
+    System.out.print("f(true  ? !get(false) : !get(true)): "); System.out.println( f(true  ? !get(false) : !get(true)));
+    System.out.print("f(false ? !get(false) : !get(true)): "); System.out.println( f(false ? !get(false) : !get(true)));
 
     System.out.println("Done!");
   }
@@ -17,7 +17,7 @@ public class exp_type_11_bool_not {
   }
 
   static boolean get(boolean a) {
-    System.out.println("get(" + a + ")");
+    System.out.print("get("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

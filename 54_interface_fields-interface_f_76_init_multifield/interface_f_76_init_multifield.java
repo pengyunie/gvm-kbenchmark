@@ -34,7 +34,7 @@ class Auxx {
 
 public class interface_f_76_init_multifield {
   public static void main(String[] args) {
-    System.out.println("I1.a = " + I1.a);
+    System.out.print("I1.a = "); System.out.println( I1.a);
     System.out.println("Done!");
   }
 }

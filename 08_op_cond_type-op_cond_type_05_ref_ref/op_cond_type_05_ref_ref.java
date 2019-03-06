@@ -18,16 +18,16 @@ Conditional with two refs, one subtype of another.
 
 public class op_cond_type_05_ref_ref {
   public static void main(String[] args) {
-    System.out.println("A      I1       : " + f(true ? (A)null      : (I1)null));
-    System.out.println("I1     A        : " + f(true ? (I1)null     : (A)null));
-    System.out.println("I2     I1       : " + f(true ? (I2)null     : (I1)null));
-    System.out.println("I2[]   I1[]     : " + f(true ? (I2[])null   : (I1[])null));
-    System.out.println("A      Object   : " + f(true ? (A)null      : (Object)null));
-    System.out.println("I3     I1       : " + f(true ? (I3)null     : (I1)null));
-    System.out.println("I1     I3       : " + f(true ? (I1)null     : (I3)null));
-    System.out.println("B      Object   : " + f(true ? (B)null      : (Object)null));
-    System.out.println("Object B        : " + f(true ? (Object)null : (B)null));
-    System.out.println("B[]    Object[] : " + f(true ? (B[])null    : (Object[])null));
+    System.out.print("A      I1       : "); System.out.println( f(true ? (A)null      : (I1)null));
+    System.out.print("I1     A        : "); System.out.println( f(true ? (I1)null     : (A)null));
+    System.out.print("I2     I1       : "); System.out.println( f(true ? (I2)null     : (I1)null));
+    System.out.print("I2[]   I1[]     : "); System.out.println( f(true ? (I2[])null   : (I1[])null));
+    System.out.print("A      Object   : "); System.out.println( f(true ? (A)null      : (Object)null));
+    System.out.print("I3     I1       : "); System.out.println( f(true ? (I3)null     : (I1)null));
+    System.out.print("I1     I3       : "); System.out.println( f(true ? (I1)null     : (I3)null));
+    System.out.print("B      Object   : "); System.out.println( f(true ? (B)null      : (Object)null));
+    System.out.print("Object B        : "); System.out.println( f(true ? (Object)null : (B)null));
+    System.out.print("B[]    Object[] : "); System.out.println( f(true ? (B[])null    : (Object[])null));
     System.out.println("Done!");
   }
 

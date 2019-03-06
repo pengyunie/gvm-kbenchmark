@@ -15,7 +15,7 @@ public class fields_18_final {
   public static void main(String[] args) {
     A a = new A();
     a.b = true;
-    System.out.println("" + a.a + " " + a.b);
+    System.out.print(""); System.out.print(a.a ); System.out.print(" "); System.out.println( a.b);
     System.out.println("Done!");
   }
 }

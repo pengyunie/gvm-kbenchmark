@@ -18,7 +18,7 @@ public class fields_130_hiding {
     b.b = true;
     A a = (A) b;
     a.a = 2;
-    System.out.println(a.a + " " + a.b + " " + b.a + " " + b.b);
+    System.out.print(a.a ); System.out.print(" "); System.out.print(a.b ); System.out.print(" "); System.out.print(b.a ); System.out.print(" "); System.out.println( b.b);
     System.out.println("Done!");
   }
 }

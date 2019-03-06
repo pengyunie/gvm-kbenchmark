@@ -10,12 +10,12 @@ public class exp_type_17_int_bit_shift {
   public static void main(String[] args) {
     int b = 10; long a = 100;
 
-    System.out.println("f(true  ? get(10) << 1 : getL(100) << 1): " + f(true  ? get(10) << 1 : getL(100) << 1));
-    System.out.println("f(false ? get(10) << 1 : getL(100) << 1): " + f(false ? get(10) << 1 : getL(100) << 1));
-    System.out.println("f(true  ? get(10) >> 1 : getL(100) >> 1): " + f(true  ? get(10) >> 1 : getL(100) >> 1));
-    System.out.println("f(false ? get(10) >> 1 : getL(100) >> 1): " + f(false ? get(10) >> 1 : getL(100) >> 1));
-    System.out.println("f(true  ? get(10) >>> 1 : getL(100) >>> 1): " + f(true  ? get(10) >>> 1 : getL(100) >>> 1));
-    System.out.println("f(false ? get(10) >>> 1 : getL(100) >>> 1): " + f(false ? get(10) >>> 1 : getL(100) >>> 1));
+    System.out.print("f(true  ? get(10) << 1 : getL(100) << 1): "); System.out.println( f(true  ? get(10) << 1 : getL(100) << 1));
+    System.out.print("f(false ? get(10) << 1 : getL(100) << 1): "); System.out.println( f(false ? get(10) << 1 : getL(100) << 1));
+    System.out.print("f(true  ? get(10) >> 1 : getL(100) >> 1): "); System.out.println( f(true  ? get(10) >> 1 : getL(100) >> 1));
+    System.out.print("f(false ? get(10) >> 1 : getL(100) >> 1): "); System.out.println( f(false ? get(10) >> 1 : getL(100) >> 1));
+    System.out.print("f(true  ? get(10) >>> 1 : getL(100) >>> 1): "); System.out.println( f(true  ? get(10) >>> 1 : getL(100) >>> 1));
+    System.out.print("f(false ? get(10) >>> 1 : getL(100) >>> 1): "); System.out.println( f(false ? get(10) >>> 1 : getL(100) >>> 1));
 
     System.out.println("Done!");
   }
@@ -29,12 +29,12 @@ public class exp_type_17_int_bit_shift {
   }
 
   static int get(int a) {
-    System.out.println("get(" + a + ")");
+    System.out.print("get("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 
   static long getL(long a) {
-    System.out.println("getL(" + a + ")");
+    System.out.print("getL("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

@@ -20,16 +20,16 @@ public class float_45_comparison_diff_types {
     long l = 0;
     System.out.println("All values are 0.");
 
-    System.out.println("float == double: " + (f == d));
-    System.out.println("double == float: " + (d == f));
-    System.out.println("float == int: "    + (f == i));
-    System.out.println("double == int: "   + (d == i));
-    System.out.println("int == double: "   + (i == d));
-    System.out.println("double == long: "  + (d == l));
-    System.out.println("long == double: "  + (l == d));
-    System.out.println("int == long: "     + (i == l));
-    System.out.println("float != double: " + (f != d));
-    System.out.println("double != int: "   + (d != i));
+    System.out.print("float == double: "); System.out.println( (f == d));
+    System.out.print("double == float: "); System.out.println( (d == f));
+    System.out.print("float == int: "); System.out.println( (f == i));
+    System.out.print("double == int: "); System.out.println( (d == i));
+    System.out.print("int == double: "); System.out.println( (i == d));
+    System.out.print("double == long: "); System.out.println( (d == l));
+    System.out.print("long == double: "); System.out.println( (l == d));
+    System.out.print("int == long: "); System.out.println( (i == l));
+    System.out.print("float != double: "); System.out.println( (f != d));
+    System.out.print("double != int: "); System.out.println( (d != i));
 
     System.out.println("Done!");
   }

@@ -22,7 +22,7 @@ class O {
       public String toString() {return "O.test().Local: a="+a + " ,b="+b+", this.a="+this.a;}
     }
 
-    System.out.println("O.test(): a="+a + " ,b="+b);
+    System.out.print("O.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.println(b);
 
     System.out.println(new Local());
   }

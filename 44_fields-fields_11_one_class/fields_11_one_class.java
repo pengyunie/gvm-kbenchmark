@@ -12,7 +12,7 @@ public class fields_11_one_class {
     A a = new A();
     a.a = 2;
     a.b = true;
-    System.out.println("" + a.a + " " + a.b);
+    System.out.print(""); System.out.print(a.a ); System.out.print(" "); System.out.println( a.b);
     System.out.println("Done!");
   }
 }

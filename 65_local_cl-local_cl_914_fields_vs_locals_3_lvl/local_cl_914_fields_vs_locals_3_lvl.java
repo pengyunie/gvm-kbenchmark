@@ -29,17 +29,17 @@ class O {
           void test() {
             final int a = 5;
 
-            System.out.println("DeepLocal.test(): a="+a + " ,b="+b + " ,c="+c + " ,d="+d + " ,e="+e);
+            System.out.print("DeepLocal.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.print(c ); System.out.print(" ,d="); System.out.print(d ); System.out.print(" ,e="); System.out.println(e);
           }
         }
 
-        System.out.println("Local.test(): a="+a + " ,b="+b + " ,c="+c + " ,d="+d + " ,e="+e);
+        System.out.print("Local.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.print(c ); System.out.print(" ,d="); System.out.print(d ); System.out.print(" ,e="); System.out.println(e);
 
         new DeepLocal().test();
       }
     }
 
-    System.out.println("O.test(): a="+a + " ,b="+b + " ,c="+c + " ,d="+d + " ,e="+e);
+    System.out.print("O.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.print(c ); System.out.print(" ,d="); System.out.print(d ); System.out.print(" ,e="); System.out.println(e);
 
     new Local().test();
   }

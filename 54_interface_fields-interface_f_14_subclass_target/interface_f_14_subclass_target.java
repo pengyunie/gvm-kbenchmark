@@ -13,8 +13,8 @@ Access to an interface field.
 public class interface_f_14_subclass_target {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println(B.v + " " + b.v + " " + B.staticGetV() + " " + b.getV()
-      + " " + b.getThisV() + " " + b.getSuperV());
+    System.out.print(B.v ); System.out.print(" "); System.out.print(b.v ); System.out.print(" "); System.out.print(B.staticGetV() ); System.out.print(" "); System.out.print(b.getV()
+      ); System.out.print(" "); System.out.print(b.getThisV() ); System.out.print(" "); System.out.println( b.getSuperV());
     System.out.println("Done!");
   }
 }

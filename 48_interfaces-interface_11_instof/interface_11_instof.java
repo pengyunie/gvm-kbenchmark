@@ -6,14 +6,14 @@ public class interface_11_instof {
   public static void main(String[] args) {
     A a = new A();
     B b = new B();
-    System.out.println("A instanceof I1 "+ (a instanceof I1));
+    System.out.print("A instanceof I1 "); System.out.println( (a instanceof I1));
     try {
       I1 aux = (I1)a;
       System.out.println("(I1)A ok");
     } catch (ClassCastException e){
       System.out.println("(I1)A exception");
     }
-    System.out.println("B instanceof I1 "+ (b instanceof I1));
+    System.out.print("B instanceof I1 "); System.out.println( (b instanceof I1));
     try {
       I1 aux = (I1)b;
       System.out.println("(I1)B ok");
@@ -22,14 +22,14 @@ public class interface_11_instof {
     }
 
     I1 i1 = (I1)b;
-    System.out.println("(I1)B instanceof A "+ (i1 instanceof A));
+    System.out.print("(I1)B instanceof A "); System.out.println( (i1 instanceof A));
     try {
       A aux = (A)i1;
       System.out.println("(A)(I1)B ok");
     } catch (ClassCastException e){
       System.out.println("(A)(I1)B exception");
     }
-    System.out.println("(I1)B instanceof B "+ (i1 instanceof B));
+    System.out.print("(I1)B instanceof B "); System.out.println( (i1 instanceof B));
     try {
       B aux = (B)i1;
       System.out.println("(B)(I1)B ok");

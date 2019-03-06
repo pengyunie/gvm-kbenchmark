@@ -33,7 +33,7 @@ class O {
       }
     }
 
-    System.out.println("O.test(): a="+a + " ,b="+b + " ,c="+c+ "\n");
+    System.out.print("O.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.print(c); System.out.println( "\n");
 
     new Local2().test();
   }

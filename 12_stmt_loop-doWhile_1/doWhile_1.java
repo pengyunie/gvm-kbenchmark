@@ -7,7 +7,7 @@ class main {
 		do i++; while (false);
     do j++; while (j < 3);
 
-    System.out.println(i+" "+j);
+    System.out.print(i); System.out.print(" "); System.out.println(j);
     System.out.println("Done!");
 	}
 }

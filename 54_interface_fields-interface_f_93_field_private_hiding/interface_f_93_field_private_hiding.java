@@ -6,7 +6,7 @@ Protected class field hides an interface field. In a derived class, base class f
 public class interface_f_93_field_private_hiding {
   public static void main(String[] args) {
     B.test();
-    System.out.println("Outside B: B.x = " + B.x);
+    System.out.print("Outside B: B.x = "); System.out.println( B.x);
     System.out.println("Done!");
   }
 }
@@ -22,6 +22,6 @@ class A implements I1 {
 class B extends A {
 
   static void test() {
-    System.out.println("Inside B: x = " + x);
+    System.out.print("Inside B: x = "); System.out.println( x);
   }
 }

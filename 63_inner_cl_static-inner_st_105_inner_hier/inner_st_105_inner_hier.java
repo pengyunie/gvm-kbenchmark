@@ -16,9 +16,9 @@ public class inner_st_105_inner_hier {
 
   public static void main(String[] args) {
     A.Inner inner = new A.Inner();
-    System.out.println("(A.Inner): " + inner.a + " " + inner.f() + " " + inner.g());
+    System.out.print("(A.Inner): "); System.out.print(inner.a ); System.out.print(" "); System.out.print(inner.f() ); System.out.print(" "); System.out.println( inner.g());
     B b = inner;
-    System.out.println("(B)      : " + b.a + " " + b.f() + " " + b.g());
+    System.out.print("(B)      : "); System.out.print(b.a ); System.out.print(" "); System.out.print(b.f() ); System.out.print(" "); System.out.println( b.g());
     System.out.println("Done!");
   }
 }

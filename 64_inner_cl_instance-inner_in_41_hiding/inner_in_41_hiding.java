@@ -26,16 +26,16 @@ class O {
       String f() {return "B.f()";}
 
       void test() {
-        System.out.println("O.A.B: v          = " + v);
-        System.out.println("O.A.B: f()        = " + f());
-        System.out.println("O.A.B: this.v     = " + this.v);
-        System.out.println("O.A.B: this.f()   = " + this.f());
-        System.out.println("O.A.B: B.this.v   = " + B.this.v);
-        System.out.println("O.A.B: B.this.f() = " + B.this.f());
-        System.out.println("O.A.B: A.this.v   = " + A.this.v);
-        System.out.println("O.A.B: A.this.f() = " + A.this.f());
-        System.out.println("O.A.B: O.this.v   = " + O.this.v);
-        System.out.println("O.A.B: O.this.f() = " + O.this.f());
+        System.out.print("O.A.B: v          = "); System.out.println( v);
+        System.out.print("O.A.B: f()        = "); System.out.println( f());
+        System.out.print("O.A.B: this.v     = "); System.out.println( this.v);
+        System.out.print("O.A.B: this.f()   = "); System.out.println( this.f());
+        System.out.print("O.A.B: B.this.v   = "); System.out.println( B.this.v);
+        System.out.print("O.A.B: B.this.f() = "); System.out.println( B.this.f());
+        System.out.print("O.A.B: A.this.v   = "); System.out.println( A.this.v);
+        System.out.print("O.A.B: A.this.f() = "); System.out.println( A.this.f());
+        System.out.print("O.A.B: O.this.v   = "); System.out.println( O.this.v);
+        System.out.print("O.A.B: O.this.f() = "); System.out.println( O.this.f());
       }
     }
   }

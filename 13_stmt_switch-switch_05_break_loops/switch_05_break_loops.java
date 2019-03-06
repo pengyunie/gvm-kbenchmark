@@ -8,7 +8,7 @@ Interaction with loops. One loop inside a switch group, one loop enclosing
 
 public class switch_05_break_loops {
 	static void howMany(int k) {
-    System.out.print(k+": ");
+    System.out.print(k); System.out.print(": ");
     while(true) {
       switch (k) {
         case 1:

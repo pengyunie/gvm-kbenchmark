@@ -24,7 +24,7 @@ class B extends A {
 public class static_init_31_inheritance {
   public static void main(String[] args) {
     B.test();
-    System.out.println("" + B.a + " " + B.b + " " + B.c);
+    System.out.print(""); System.out.print(B.a ); System.out.print(" "); System.out.print(B.b ); System.out.print(" "); System.out.println( B.c);
     System.out.println("Done!");
   }
 }

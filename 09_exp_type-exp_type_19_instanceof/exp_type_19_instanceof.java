@@ -8,8 +8,8 @@ o instanceof A : o instanceof B
 public class exp_type_19_instanceof {
   public static void main(String[] args) {
     Object o = new A();
-    System.out.println("f(true  ? get(o) instanceof A : get(o) instanceof B): " + f(true  ? get(o) instanceof A : get(o) instanceof B));
-    System.out.println("f(false ? get(o) instanceof A : get(o) instanceof B): " + f(false ? get(o) instanceof A : get(o) instanceof B));
+    System.out.print("f(true  ? get(o) instanceof A : get(o) instanceof B): "); System.out.println( f(true  ? get(o) instanceof A : get(o) instanceof B));
+    System.out.print("f(false ? get(o) instanceof A : get(o) instanceof B): "); System.out.println( f(false ? get(o) instanceof A : get(o) instanceof B));
     System.out.println("Done!");
   }
 
@@ -18,7 +18,7 @@ public class exp_type_19_instanceof {
   }
 
   static Object get(Object o) {
-    System.out.println("get(" + o + ")");
+    System.out.print("get("); System.out.print(o ); System.out.println( ")");
     return o;
   }
 }

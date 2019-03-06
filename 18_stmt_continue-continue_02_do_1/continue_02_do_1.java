@@ -10,7 +10,7 @@ public class continue_02_do_1 {
       int j = i;
       i++;
       if (j % 2 != 0) continue;
-      System.out.print(j+" ");
+      System.out.print(j); System.out.print(" ");
     } while (i<10);
     System.out.println();
     System.out.println("Done!");

@@ -5,7 +5,7 @@ Access to an interface field. Through the defining interface.
 
 public class interface_f_11_interface_target {
   public static void main(String[] args) {
-    System.out.println(I1.v + " " + ((I1) new A()).v);
+    System.out.print(I1.v ); System.out.print(" "); System.out.println( ((I1) new A()).v);
     System.out.println("Done!");
   }
 }

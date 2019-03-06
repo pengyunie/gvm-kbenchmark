@@ -27,9 +27,9 @@ class main {
   main(String[] args) {
     System.out.print("Length of array = ");
     int x = scanner.nextInt();
-    System.out.println("Input each of the "+x+" elements of the array");
+    System.out.print("Input each of the "); System.out.print(x); System.out.println(" elements of the array");
     for (int y = 0; y<x; ++y) {
-      System.out.print("Element "+y+" = ");
+      System.out.print("Element "); System.out.print(y); System.out.print(" = ");
       v[y] = scanner.nextInt();
     }
     System.out.print("Sorting the array using bubble sort ... ");
@@ -37,7 +37,7 @@ class main {
     System.out.println("Done!");
     System.out.println("Below is the sorted sequence:");
     for (int y = 0; y<x; ++y) {
-      System.out.println("Element "+ y+ " = "+ v[y]);
+      System.out.print("Element "); System.out.print(y); System.out.print(" = "); System.out.println( v[y]);
     }
     System.out.println("Done!");
   }

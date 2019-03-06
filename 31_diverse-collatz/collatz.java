@@ -13,7 +13,7 @@ import java.util.*;
 class main {
   void collatz(int n) {
     int s=0;
-    System.out.print("Testing Collatz' conjecture for n = " + n + " ... ");
+    System.out.print("Testing Collatz' conjecture for n = "); System.out.print(n ); System.out.print( " ... ");
     while (n > 1) {
       s = s+1;
       if (n == (n/2)*2)
@@ -21,7 +21,7 @@ class main {
       else
         n = 3*n+1;
     }
-    System.out.println("Done! It took "+s+" steps.");
+    System.out.print("Done! It took "); System.out.print(s); System.out.println(" steps.");
   }
 
   main(String[] args) {

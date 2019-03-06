@@ -6,7 +6,7 @@ not for the qualifier type.
 
 public class static_i_trig_207_actual_init_intf_1 {
   public static void main(String[] args) {
-    System.out.println("I3.b=" + I3.b);
+    System.out.print("I3.b="); System.out.println( I3.b);
     System.out.println("Done!");
   }
 }
@@ -25,7 +25,7 @@ interface I3 extends I2 {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

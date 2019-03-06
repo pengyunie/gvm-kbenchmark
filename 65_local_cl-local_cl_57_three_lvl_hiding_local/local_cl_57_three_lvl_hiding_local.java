@@ -50,15 +50,7 @@ class O {
           String af() {return "ILB.af()";}
 
           void test() {
-            System.out.println("O.test().Mid.test().ILB.test()[\n"
-                +"av="+av+", af() = "+ af() + ",\n"
-                +"bv="+bv+", bf() = "+ bf() + ",\n"
-                +"cv="+cv+", cf() = "+ cf() + ",\n"
-                +"this.av = "+ this.av +", this.af() = "+ this.af() + ",\n"
-                +"ILB.this.av = "+ ILB.this.av +", ILB.this.af() = "+ ILB.this.af() + ",\n"
-                +"Mid.this.av = "+ Mid.this.av +", Mid.this.af() = "+ Mid.this.af() + ",\n"
-                +"O.this.av = "+ O.this.av +", O.this.af() = "+ O.this.af() + "\n"
-                +"]");
+            System.out.print("O.test().Mid.test().ILB.test()[\n"); System.out.print("av="); System.out.print(av); System.out.print(", af() = "); System.out.print(af() ); System.out.print(",\n"); System.out.print("bv="); System.out.print(bv); System.out.print(", bf() = "); System.out.print(bf() ); System.out.print(",\n"); System.out.print("cv="); System.out.print(cv); System.out.print(", cf() = "); System.out.print(cf() ); System.out.print(",\n"); System.out.print("this.av = "); System.out.print(this.av ); System.out.print(", this.af() = "); System.out.print(this.af() ); System.out.print(",\n"); System.out.print("ILB.this.av = "); System.out.print(ILB.this.av ); System.out.print(", ILB.this.af() = "); System.out.print(ILB.this.af() ); System.out.print(",\n"); System.out.print("Mid.this.av = "); System.out.print(Mid.this.av ); System.out.print(", Mid.this.af() = "); System.out.print(Mid.this.af() ); System.out.print(",\n"); System.out.print("O.this.av = "); System.out.print(O.this.av ); System.out.print(", O.this.af() = "); System.out.print(O.this.af() ); System.out.print("\n"); System.out.println("]");
           }
         }
 

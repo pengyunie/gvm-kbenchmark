@@ -38,11 +38,11 @@ class S {
     }
 
     void test() {
-      System.out.println("S.A: sv          = " + sv);
-      System.out.println("S.A: sf()        = " + sf());
-      System.out.println("S.A: S.this.sv   = " + S.this.sv);
-      System.out.println("S.A: S.this.sf() = " + S.this.sf());
-      System.out.println("S.A: af()        = " + bf());
+      System.out.print("S.A: sv          = "); System.out.println( sv);
+      System.out.print("S.A: sf()        = "); System.out.println( sf());
+      System.out.print("S.A: S.this.sv   = "); System.out.println( S.this.sv);
+      System.out.print("S.A: S.this.sf() = "); System.out.println( S.this.sf());
+      System.out.print("S.A: af()        = "); System.out.println( bf());
     }
   }
 }

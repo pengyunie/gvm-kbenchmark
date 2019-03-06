@@ -38,22 +38,22 @@ class IllustrateCompoundArrayAssignment {
     String sx = (x == null) ? "null" : "Strings";
     System.out.println();
     try {
-      System.out.print(sx + "[throw]+=throw => ");
+      System.out.print(sx ); System.out.print( "[throw]+=throw => ");
       x[indexThrow()] += stringThrow();
       System.out.println("Okay!");
     } catch (RuntimeException e) { System.out.println(e); }
     try {
-      System.out.print(sx + "[throw]+=\"heh\" => ");
+      System.out.print(sx ); System.out.print( "[throw]+=\"heh\" => ");
       x[indexThrow()] += "heh";
       System.out.println("Okay!");
     } catch (RuntimeException e) { System.out.println(e); }
     try {
-      System.out.print(sx + "[" + j + "]+=throw => ");
+      System.out.print(sx ); System.out.print("["); System.out.print(j ); System.out.print( "]+=throw => ");
       x[j] += stringThrow();
       System.out.println("Okay!");
     } catch (RuntimeException e) { System.out.println(e); }
     try {
-      System.out.print(sx + "[" + j + "]+=\"heh\" => ");
+      System.out.print(sx ); System.out.print("["); System.out.print(j ); System.out.print( "]+=\"heh\" => ");
       x[j] += "heh";
       System.out.println("Okay!");
     } catch (RuntimeException e) { System.out.println(e); }

@@ -5,14 +5,14 @@ Static initializer, then field initializer, initializing the same field.
 class A {
 
   static {
-    System.out.println("inst init begin, a = " + A.a);
+    System.out.print("inst init begin, a = "); System.out.println( A.a);
     a = 3;
   }
 
   static int a = 2;
 
   static void f() {
-    System.out.println("A.f(): a = " + a);
+    System.out.print("A.f(): a = "); System.out.println( a);
   }
 }
 

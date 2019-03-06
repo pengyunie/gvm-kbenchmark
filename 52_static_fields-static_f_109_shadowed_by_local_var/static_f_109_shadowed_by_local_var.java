@@ -9,10 +9,10 @@ class A {
   void f() {
     {
       int a = 7;
-      System.out.println("f().a = " + a);
-      System.out.println("this.a = " + this.a);
+      System.out.print("f().a = "); System.out.println( a);
+      System.out.print("this.a = "); System.out.println( this.a);
     }
-    System.out.println("A.a = " + a);
+    System.out.print("A.a = "); System.out.println( a);
   }
 }
 

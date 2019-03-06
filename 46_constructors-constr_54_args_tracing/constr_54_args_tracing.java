@@ -5,7 +5,7 @@ also calling methods that print something to the console.
 
 class A {
   A(int a) {
-    System.out.println("A.A("+a+")");
+    System.out.print("A.A("); System.out.print(a); System.out.println(")");
   }
 }
 

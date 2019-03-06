@@ -18,11 +18,11 @@ class O1 {
   class A {
 
     A() {
-      System.out.println("A: var = "+ var);
+      System.out.print("A: var = "); System.out.println( var);
     }
 
     void test() {
-      System.out.println("A.test: var = "+ var);
+      System.out.print("A.test: var = "); System.out.println( var);
     }
   }
 }

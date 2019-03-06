@@ -7,12 +7,12 @@ public class interface_41_methods_from_cl_object {
   public static void main(String[] args) {
     A a = new A();
     I1 i1 = a;
-    System.out.println("i1.equals(): "+ i1.equals(a) + " " + i1.equals(null));
-    System.out.println("i1.toString(): "+ i1.toString());
+    System.out.print("i1.equals(): "); System.out.print(i1.equals(a) ); System.out.print(" "); System.out.println( i1.equals(null));
+    System.out.print("i1.toString(): "); System.out.println( i1.toString());
 
     I2 i2 = a;
-    System.out.println("i2.equals(): "+ i2.equals(i1) + " " + i2.equals(null));
-    System.out.println("i2.toString(): "+ i2.toString());
+    System.out.print("i2.equals(): "); System.out.print(i2.equals(i1) ); System.out.print(" "); System.out.println( i2.equals(null));
+    System.out.print("i2.toString(): "); System.out.println( i2.toString());
 
     System.out.println("Done!");
   }

@@ -11,11 +11,11 @@ class A {
   String v = "field:v";
 
   {
-    System.out.println("A.IInit: v = " + v);
+    System.out.print("A.IInit: v = "); System.out.println( v);
   }
 
   A(String v) {
-    System.out.println("A.A: v = " + v);
+    System.out.print("A.A: v = "); System.out.println( v);
   }
 }
 

@@ -7,10 +7,10 @@ not for the qualifier type.
 
 public class static_i_trig_208_actual_init_intf_2 {
   public static void main(String[] args) {
-    System.out.println("B.a=" + B.a);
-    System.out.println("B.a=" + B.a);
-    System.out.println("B.c=" + B.c);
-    System.out.println("B.c=" + B.c);
+    System.out.print("B.a="); System.out.println( B.a);
+    System.out.print("B.a="); System.out.println( B.a);
+    System.out.print("B.c="); System.out.println( B.c);
+    System.out.print("B.c="); System.out.println( B.c);
     System.out.println("Done!");
   }
 }
@@ -47,7 +47,7 @@ class B extends A {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

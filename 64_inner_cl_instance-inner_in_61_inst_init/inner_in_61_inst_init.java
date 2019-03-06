@@ -31,7 +31,7 @@ class O {
     }
 
     {
-      System.out.println("O.A.[instance_init]: v = " + v);
+      System.out.print("O.A.[instance_init]: v = "); System.out.println( v);
     }
   }
 }

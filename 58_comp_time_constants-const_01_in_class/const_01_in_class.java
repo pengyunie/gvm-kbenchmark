@@ -6,9 +6,9 @@ Class with a constant initialized with an int value and static initializer print
 
 class const_01_in_class {
   public static void main(String[] argv) {
-    System.out.println("Constant: " + B.x);
-    System.out.println("Regular static: " + B.y);
-    System.out.println("Constant: " + B.x);
+    System.out.print("Constant: "); System.out.println( B.x);
+    System.out.print("Regular static: "); System.out.println( B.y);
+    System.out.print("Constant: "); System.out.println( B.x);
     System.out.println("Done!");
   }
 }

@@ -17,6 +17,6 @@ public class float_52_double_sub_of_types {
   }
 
   static void f(double a) {
-    System.out.println("double a = " + a);
+    System.out.print("double a = "); System.out.println( a);
   }
 }

@@ -23,7 +23,7 @@ class A {
   }
 
   static void print() {
-    System.out.println(a + " " + b + " " + c);
+    System.out.print(a ); System.out.print(" "); System.out.print(b ); System.out.print(" "); System.out.println( c);
   }
 }
 

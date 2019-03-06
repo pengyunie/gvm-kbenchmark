@@ -7,8 +7,8 @@ Interface init triggering block environment separation.
 public class static_i_trig_213_i_env_separation {
   public static void main(String[] args) {
     int x = 1;
-    System.out.println("x = " + x);
-    System.out.println("I.x = " + I.x);
+    System.out.print("x = "); System.out.println( x);
+    System.out.print("I.x = "); System.out.println( I.x);
     System.out.println("Done!");
   }
 }

@@ -21,14 +21,14 @@ class main {
   }
 
   void f(int a, int b, int c) {
-    System.out.println(a+" "+b+" "+c);
+    System.out.print(a); System.out.print(" "); System.out.print(b); System.out.print(" "); System.out.println(c);
   }
 
   void f(int a, int b) {
-    System.out.println(a+" "+b);
+    System.out.print(a); System.out.print(" "); System.out.println(b);
   }
 
   void f(Object[] v) {
-    System.out.println("Object[] length: "+v.length);
+    System.out.print("Object[] length: "); System.out.println(v.length);
   }
 }

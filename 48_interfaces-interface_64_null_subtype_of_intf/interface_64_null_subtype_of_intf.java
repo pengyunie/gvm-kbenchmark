@@ -9,8 +9,8 @@ Null subtype of interface.
 
 public class interface_64_null_subtype_of_intf {
   public static void main(String[] args) {
-    System.out.println("T0.f(null):       " + new T0().f(null));
-    System.out.println("T1.f(null):       " + new T1().f(null));
+    System.out.print("T0.f(null):       "); System.out.println( new T0().f(null));
+    System.out.print("T1.f(null):       "); System.out.println( new T1().f(null));
 
     System.out.println("Done!");
   }

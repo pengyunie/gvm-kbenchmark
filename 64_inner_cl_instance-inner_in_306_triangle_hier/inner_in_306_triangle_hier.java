@@ -34,14 +34,14 @@ class O extends S {
     }
 
     void test() {
-      System.out.println("O.A: sv          = " + sv);
-      System.out.println("O.A: sf()        = " + sf());
-      System.out.println("O.A: this.sv     = " + this.sv);
-      System.out.println("O.A: this.sf()   = " + this.sf());
-      System.out.println("O.A: super.sv    = " + super.sv);
-      System.out.println("O.A: super.sf()  = " + super.sf());
-      System.out.println("O.A: O.this.sv   = " + O.this.sv);
-      System.out.println("O.A: O.this.sf() = " + O.this.sf());
+      System.out.print("O.A: sv          = "); System.out.println( sv);
+      System.out.print("O.A: sf()        = "); System.out.println( sf());
+      System.out.print("O.A: this.sv     = "); System.out.println( this.sv);
+      System.out.print("O.A: this.sf()   = "); System.out.println( this.sf());
+      System.out.print("O.A: super.sv    = "); System.out.println( super.sv);
+      System.out.print("O.A: super.sf()  = "); System.out.println( super.sf());
+      System.out.print("O.A: O.this.sv   = "); System.out.println( O.this.sv);
+      System.out.print("O.A: O.this.sf() = "); System.out.println( O.this.sf());
     }
   }
 }

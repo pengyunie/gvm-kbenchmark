@@ -31,13 +31,7 @@ class O {
       String af() {return "LA.af()";}
 
       void test() {
-        System.out.println("O.LA.test()[\n"
-            +"av="+av+", af() = "+ af() + ",\n"
-            +"bv="+bv+", bf() = "+ bf() + ",\n"
-            +"this.av = "+ this.av +", this.af() = "+ this.af() + ",\n"
-            +"LA.this.av = "+ LA.this.av +", LA.this.af() = "+ LA.this.af() + ",\n"
-            +"O.this.av = "+ O.this.av +", O.this.af() = "+ O.this.af() + "\n"
-            +"]");
+        System.out.print("O.LA.test()[\n"); System.out.print("av="); System.out.print(av); System.out.print(", af() = "); System.out.print(af() ); System.out.print(",\n"); System.out.print("bv="); System.out.print(bv); System.out.print(", bf() = "); System.out.print(bf() ); System.out.print(",\n"); System.out.print("this.av = "); System.out.print(this.av ); System.out.print(", this.af() = "); System.out.print(this.af() ); System.out.print(",\n"); System.out.print("LA.this.av = "); System.out.print(LA.this.av ); System.out.print(", LA.this.af() = "); System.out.print(LA.this.af() ); System.out.print(",\n"); System.out.print("O.this.av = "); System.out.print(O.this.av ); System.out.print(", O.this.af() = "); System.out.print(O.this.af() ); System.out.print("\n"); System.out.println("]");
       }
     }
 

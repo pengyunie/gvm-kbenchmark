@@ -65,9 +65,9 @@ class Graph {
 
   void print() {
     for (int i = 0; i < edges.length; i++) {
-      System.out.print(i + " |-> ");
+      System.out.print(i ); System.out.print( " |-> ");
       for (int j = 0; j < edges[i].length; j++) {
-        System.out.print(edges[i][j] + " ");
+        System.out.print(edges[i][j] ); System.out.print( " ");
       }
       System.out.println();
     }

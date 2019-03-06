@@ -6,7 +6,7 @@ Conditional with both types null.
 
 public class op_cond_type_04_null_null {
   public static void main(String[] args) {
-    System.out.println("null  null : " + f(true ? null : null));
+    System.out.print("null  null : "); System.out.println( f(true ? null : null));
     System.out.println("Done!");
   }
 

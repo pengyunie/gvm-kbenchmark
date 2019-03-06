@@ -7,7 +7,7 @@ Fields hiding involving an interface:
 
 public class interface_f_23_hiding_class_sub_i {
   public static void main(String[] args) {
-    System.out.println(I1.v + " " + A.v + " " + A.getV());
+    System.out.print(I1.v ); System.out.print(" "); System.out.print(A.v ); System.out.print(" "); System.out.println( A.getV());
     System.out.println("Done!");
   }
 }

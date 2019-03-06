@@ -8,7 +8,7 @@ Priority of fields is no higher than that of constants. The test from JBook:
 
 class const_03_priority_1 {
   public static void main(String[] argv) {
-    System.out.println("Constant: " + B.x);
+    System.out.print("Constant: "); System.out.println( B.x);
     System.out.println("Done!");
   }
 }

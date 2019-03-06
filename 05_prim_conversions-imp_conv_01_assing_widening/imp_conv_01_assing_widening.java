@@ -21,23 +21,23 @@ public class imp_conv_01_assing_widening {
 
     //byte to others
     b = sb; s = sb; i = sb; l = sb;
-    System.out.println(""+b+" "+s+" "+i+" "+l);
+    System.out.print(""); System.out.print(b); System.out.print(" "); System.out.print(s); System.out.print(" "); System.out.print(i); System.out.print(" "); System.out.println(l);
 
     //short to others
     s = ss; i = ss; l = ss;
-    System.out.println(""+s+" "+i+" "+l);
+    System.out.print(""); System.out.print(s); System.out.print(" "); System.out.print(i); System.out.print(" "); System.out.println(l);
 
     //int to others
     i = si; l = si;
-    System.out.println(""+i+" "+l);
+    System.out.print(""); System.out.print(i); System.out.print(" "); System.out.println(l);
 
     //long to others
     l = sl;
-    System.out.println(""+l);
+    System.out.print(""); System.out.println(l);
 
     //char to others
     i = sc; l = sc; c = sc;
-    System.out.println(""+i+" "+l+" "+c);
+    System.out.print(""); System.out.print(i); System.out.print(" "); System.out.print(l); System.out.print(" "); System.out.println(c);
 
     System.out.println("Done!");
   }

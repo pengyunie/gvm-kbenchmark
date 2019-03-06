@@ -11,14 +11,14 @@ public class throw_10_tryC_throw_F_tryC {
         if (true) throw new ExA();
         System.out.println("unreachable");
       } catch(ExA e) {
-        System.out.println("caught: " + e.toString());
+        System.out.print("caught: "); System.out.println( e.toString());
         throw new RuntimeException();
       } finally {
         System.out.println("finally");
       }
       System.out.println("unreachable");
     } catch (RuntimeException e) {
-      System.out.println("caught 2: " + e.toString());
+      System.out.print("caught 2: "); System.out.println( e.toString());
     }
     System.out.println("Done!");
   }

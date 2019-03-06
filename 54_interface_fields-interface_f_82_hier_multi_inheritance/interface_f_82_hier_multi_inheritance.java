@@ -6,7 +6,7 @@ Hierarchy of type I3 < (I1,I2). Interfaces all with fields with initializer,
 
 public class interface_f_82_hier_multi_inheritance {
   public static void main(String[] args) {
-    System.out.println("I3.e = " + I3.e);
+    System.out.print("I3.e = "); System.out.println( I3.e);
     System.out.println("Done!");
   }
 }
@@ -27,7 +27,7 @@ interface I3 extends I1, I2 {
 
 class Auxx {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

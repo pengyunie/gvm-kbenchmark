@@ -23,22 +23,22 @@ class main {
   }
 
   void f(long a) {
-    System.out.println("long: " + a);
+    System.out.print("long: "); System.out.println( a);
   }
 
   void f(String a) {
-    System.out.println("String: " + a);
+    System.out.print("String: "); System.out.println( a);
   }
 
   void f(RuntimeException a) {
-    System.out.println("RuntimeException: " + a);
+    System.out.print("RuntimeException: "); System.out.println( a);
   }
 
   void f(NullPointerException a) {
-    System.out.println("NullPointerException: " + a);
+    System.out.print("NullPointerException: "); System.out.println( a);
   }
 
   void f(A a) {
-    System.out.println("A: " + a.getClass().getName());
+    System.out.print("A: "); System.out.println( a.getClass().getName());
   }
 }

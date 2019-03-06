@@ -11,7 +11,7 @@ class A {
 public class field_init_203_forward_ref {
   public static void main(String[] args) {
     A a = new A();
-    System.out.println("" + a.a + " " + a.b + " " + a.c);
+    System.out.print(""); System.out.print(a.a ); System.out.print(" "); System.out.print(a.b ); System.out.print(" "); System.out.println( a.c);
     System.out.println("Done!");
   }
 }

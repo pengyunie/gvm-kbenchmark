@@ -19,7 +19,7 @@ IA < (I1, I5, I9); I5 < I6; I6{v} < (I3, I7); I3{v} < (I2{v}, I4{v}); I7{v} < (I
 
 public class interface_f_34_multi_inh_giga_hiding {
   public static void main(String[] args) {
-    System.out.println(IA.v + " " + I5.v + " " +I6.v);
+    System.out.print(IA.v ); System.out.print(" "); System.out.print(I5.v ); System.out.print(" "); System.out.println(I6.v);
     System.out.println("Done!");
   }
 }

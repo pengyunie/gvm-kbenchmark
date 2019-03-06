@@ -16,8 +16,8 @@ class A {
 
 public class static_f_110_default_value {
   public static void main(String[] args) {
-    System.out.println("" + A.b + " " + A.s + " " + A.i + " " + A.l + " " + A.ch + " " + A.bool
-                    + " " + A.str + " " + A.re + " ");
+    System.out.print(""); System.out.print(A.b ); System.out.print(" "); System.out.print(A.s ); System.out.print(" "); System.out.print(A.i ); System.out.print(" "); System.out.print(A.l ); System.out.print(" "); System.out.print(A.ch ); System.out.print(" "); System.out.print(A.bool
+                    ); System.out.print(" "); System.out.print(A.str ); System.out.print(" "); System.out.print(A.re ); System.out.println( " ");
     System.out.println("Done!");
   }
 }

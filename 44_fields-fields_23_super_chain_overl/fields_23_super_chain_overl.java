@@ -18,8 +18,8 @@ class B extends A {
   }
 
   void test() {
-    System.out.println("f(this.x.y)  = " + f(this.x.y));
-    System.out.println("f(super.x.y) = " + f(super.x.y));
+    System.out.print("f(this.x.y)  = "); System.out.println( f(this.x.y));
+    System.out.print("f(super.x.y) = "); System.out.println( f(super.x.y));
   }
 }
 

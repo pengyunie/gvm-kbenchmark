@@ -8,7 +8,7 @@ public class return_17_ret_string {
 
 class test {
   test() {
-    System.out.println("f() = " + f());
+    System.out.print("f() = "); System.out.println( f());
   }
 
   String f() {

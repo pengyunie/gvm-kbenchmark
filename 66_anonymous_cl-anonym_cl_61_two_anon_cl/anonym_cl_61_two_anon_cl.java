@@ -26,7 +26,7 @@ class O {
       }
 
       public void test() {
-        System.out.println("anon1.test(): v = "+ v + ", f() = " + f());
+        System.out.print("anon1.test(): v = "); System.out.print(v ); System.out.print(", f() = "); System.out.println( f());
       }
     };
 

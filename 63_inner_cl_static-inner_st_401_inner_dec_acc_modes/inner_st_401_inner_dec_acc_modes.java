@@ -33,14 +33,14 @@ public class inner_st_401_inner_dec_acc_modes {
   }
 
   static void test() {
-    System.out.println(A.Pack.id + " " + A.Prot.id + " " + A.Pub.id);
+    System.out.print(A.Pack.id ); System.out.print(" "); System.out.print(A.Prot.id ); System.out.print(" "); System.out.println( A.Pub.id);
   }
 }
 
 class A {
 
   static void test() {
-    System.out.println(A.Pri.id + " " + A.Pack.id + " " + A.Prot.id + " " + A.Pub.id);
+    System.out.print(A.Pri.id ); System.out.print(" "); System.out.print(A.Pack.id ); System.out.print(" "); System.out.print(A.Prot.id ); System.out.print(" "); System.out.println( A.Pub.id);
   }
 
   private static class Pri {
@@ -61,7 +61,7 @@ class A {
 
   public static class InnerTest {
     static void test() {
-      System.out.println(A.Pri.id + " " + A.Pack.id + " " + A.Prot.id + " " + A.Pub.id);
+      System.out.print(A.Pri.id ); System.out.print(" "); System.out.print(A.Pack.id ); System.out.print(" "); System.out.print(A.Prot.id ); System.out.print(" "); System.out.println( A.Pub.id);
     }
   }
 }

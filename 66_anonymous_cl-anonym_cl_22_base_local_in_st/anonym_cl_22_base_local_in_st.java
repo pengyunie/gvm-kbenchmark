@@ -20,7 +20,7 @@ class O {
       int param;
 
       A(int param) {
-        System.out.println("A: param = "+ param + " local = "+ local);
+        System.out.print("A: param = "); System.out.print(param ); System.out.print(" local = "); System.out.println( local);
         this.param = param;
       }
 
@@ -29,7 +29,7 @@ class O {
 
     A a = new A(3) {
       public void test() {
-        System.out.println("anon: param = "+ param);
+        System.out.print("anon: param = "); System.out.println( param);
       }
     };
 

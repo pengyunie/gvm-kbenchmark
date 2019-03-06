@@ -31,13 +31,13 @@ class O {
 
       class Local1 {
         void test() {
-          System.out.println("Local1: a = " + a);
+          System.out.print("Local1: a = "); System.out.println( a);
         }
       }
 
       class Local2 implements I1 {
         public void test() {
-          System.out.println("Local2: a = " + a);
+          System.out.print("Local2: a = "); System.out.println( a);
           System.out.println("Instantiating Local1 from Local2:");
           new Local1().test();
           System.out.println();

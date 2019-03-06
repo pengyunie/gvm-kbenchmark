@@ -6,11 +6,11 @@ public class break_01_while {
     int i=0;
     while (i<10) {
       if (i >= 5) break;
-      System.out.print(i+" ");
+      System.out.print(i); System.out.print(" ");
       i++;
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

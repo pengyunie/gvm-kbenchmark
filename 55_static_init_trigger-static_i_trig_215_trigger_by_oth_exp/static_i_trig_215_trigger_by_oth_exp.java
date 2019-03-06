@@ -49,17 +49,17 @@ class Test extends A implements I0, I1, I2, I3, I4, I5 {
   }
 
   void test() {
-    System.out.println("b              = " + b);
-    System.out.println("this.c         = " + this.c);
-    System.out.println("super.d        = " + super.d);
-    System.out.println("((I4)this).e   = " + ((I4)this).e);
-    System.out.println("(new Test()).f = " + (new Test()).f);
+    System.out.print("b              = "); System.out.println( b);
+    System.out.print("this.c         = "); System.out.println( this.c);
+    System.out.print("super.d        = "); System.out.println( super.d);
+    System.out.print("((I4)this).e   = "); System.out.println( ((I4)this).e);
+    System.out.print("(new Test()).f = "); System.out.println( (new Test()).f);
   }
 }
 
 class T {
   static String trace(String s) {
-    System.out.println("trace(" + s + ")");
+    System.out.print("trace("); System.out.print(s ); System.out.println( ")");
     return s;
   }
 }

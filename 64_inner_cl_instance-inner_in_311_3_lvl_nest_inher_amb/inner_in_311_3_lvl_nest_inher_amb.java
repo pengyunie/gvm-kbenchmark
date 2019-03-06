@@ -32,13 +32,13 @@ class Outer {
   }
 
   void test(String spaces) {
-    System.out.println(spaces + id);
+    System.out.print(spaces ); System.out.println( id);
   }
 
   class Mid1 {
 
     void test(String spaces) {
-      System.out.println(spaces + "Mid1: Outer.this.test():");
+      System.out.print(spaces ); System.out.println( "Mid1: Outer.this.test():");
       Outer.this.test(spaces + "  ");
     }
   }
@@ -50,9 +50,9 @@ class Outer {
     }
 
     void test(String spaces) {
-      System.out.println(spaces + "Mid2: super.test():");
+      System.out.print(spaces ); System.out.println( "Mid2: super.test():");
       super.test(spaces + "  ");
-      System.out.println(spaces + "Mid2: Outer.this.test()");
+      System.out.print(spaces ); System.out.println( "Mid2: Outer.this.test()");
       Outer.this.test(spaces + "  ");
     }
 

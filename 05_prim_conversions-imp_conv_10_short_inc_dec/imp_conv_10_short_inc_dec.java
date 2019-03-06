@@ -19,7 +19,7 @@ public class imp_conv_10_short_inc_dec {
     s4--;
     b--;
     c++;
-    System.out.println(""+s1+" "+s2+" "+s3+" "+s4+" "+b+" "+(int)c);
+    System.out.print(""); System.out.print(s1); System.out.print(" "); System.out.print(s2); System.out.print(" "); System.out.print(s3); System.out.print(" "); System.out.print(s4); System.out.print(" "); System.out.print(b); System.out.print(" "); System.out.println((int)c);
 
     s1 = 32767;
     s2 = -32768;
@@ -33,7 +33,7 @@ public class imp_conv_10_short_inc_dec {
     s4--;
     b--;
     c--;
-    System.out.println(""+s1+" "+s2+" "+s3+" "+s4+" "+b+" "+(int)c);
+    System.out.print(""); System.out.print(s1); System.out.print(" "); System.out.print(s2); System.out.print(" "); System.out.print(s3); System.out.print(" "); System.out.print(s4); System.out.print(" "); System.out.print(b); System.out.print(" "); System.out.println((int)c);
 
     System.out.println("Done!");
   }

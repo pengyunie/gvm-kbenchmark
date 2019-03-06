@@ -8,7 +8,7 @@ Constants are inherited from the base class.
 
 class const_05_inheritance {
   public static void main(String[] argv) {
-    System.out.println("Constant: " + B.x);
+    System.out.print("Constant: "); System.out.println( B.x);
     System.out.println("Done!");
   }
 }

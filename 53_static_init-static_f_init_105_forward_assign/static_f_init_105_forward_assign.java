@@ -15,7 +15,7 @@ class A {
 
 public class static_f_init_105_forward_assign {
   public static void main(String[] args) {
-    System.out.println("" + A.b1 + " " + A.b2);
+    System.out.print(""); System.out.print(A.b1 ); System.out.print(" "); System.out.println( A.b2);
     System.out.println("Done!");
   }
 }

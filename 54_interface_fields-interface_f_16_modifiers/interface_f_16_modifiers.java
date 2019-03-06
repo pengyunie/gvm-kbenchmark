@@ -11,7 +11,7 @@ Interface fields having modifiers:
 
 public class interface_f_16_modifiers {
   public static void main(String[] args) {
-    System.out.println(I1.a + " " + I1.b + " " + I1.c + " " + I1.d + " " + I1.e + " " + I1.f);
+    System.out.print(I1.a ); System.out.print(" "); System.out.print(I1.b ); System.out.print(" "); System.out.print(I1.c ); System.out.print(" "); System.out.print(I1.d ); System.out.print(" "); System.out.print(I1.e ); System.out.print(" "); System.out.println( I1.f);
     System.out.println("Done!");
   }
 }

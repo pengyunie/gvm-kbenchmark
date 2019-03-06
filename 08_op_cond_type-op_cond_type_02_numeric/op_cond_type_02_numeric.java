@@ -12,39 +12,39 @@ public class op_cond_type_02_numeric {
     long l = 0;
     char c = 0;
 
-    System.out.println("byte  byte  : " + f(true ? b : b));
-    System.out.println("byte  short : " + f(true ? b : s));
-    System.out.println("byte  int   : " + f(true ? b : i));
-    System.out.println("byte  long  : " + f(true ? b : l));
-    System.out.println("byte  char  : " + f(true ? b : c));
+    System.out.print("byte  byte  : "); System.out.println( f(true ? b : b));
+    System.out.print("byte  short : "); System.out.println( f(true ? b : s));
+    System.out.print("byte  int   : "); System.out.println( f(true ? b : i));
+    System.out.print("byte  long  : "); System.out.println( f(true ? b : l));
+    System.out.print("byte  char  : "); System.out.println( f(true ? b : c));
     System.out.println();
 
-    System.out.println("short byte  : " + f(true ? s : b));
-    System.out.println("short short : " + f(true ? s : s));
-    System.out.println("short int   : " + f(true ? s : i));
-    System.out.println("short long  : " + f(true ? s : l));
-    System.out.println("short char  : " + f(true ? s : c));
+    System.out.print("short byte  : "); System.out.println( f(true ? s : b));
+    System.out.print("short short : "); System.out.println( f(true ? s : s));
+    System.out.print("short int   : "); System.out.println( f(true ? s : i));
+    System.out.print("short long  : "); System.out.println( f(true ? s : l));
+    System.out.print("short char  : "); System.out.println( f(true ? s : c));
     System.out.println();
 
-    System.out.println("int   byte  : " + f(true ? i : b));
-    System.out.println("int   short : " + f(true ? i : s));
-    System.out.println("int   int   : " + f(true ? i : i));
-    System.out.println("int   long  : " + f(true ? i : l));
-    System.out.println("int   char  : " + f(true ? i : c));
+    System.out.print("int   byte  : "); System.out.println( f(true ? i : b));
+    System.out.print("int   short : "); System.out.println( f(true ? i : s));
+    System.out.print("int   int   : "); System.out.println( f(true ? i : i));
+    System.out.print("int   long  : "); System.out.println( f(true ? i : l));
+    System.out.print("int   char  : "); System.out.println( f(true ? i : c));
     System.out.println();
 
-    System.out.println("long  byte  : " + f(true ? l : b));
-    System.out.println("long  short : " + f(true ? l : s));
-    System.out.println("long  int   : " + f(true ? l : i));
-    System.out.println("long  long  : " + f(true ? l : l));
-    System.out.println("long  char  : " + f(true ? l : c));
+    System.out.print("long  byte  : "); System.out.println( f(true ? l : b));
+    System.out.print("long  short : "); System.out.println( f(true ? l : s));
+    System.out.print("long  int   : "); System.out.println( f(true ? l : i));
+    System.out.print("long  long  : "); System.out.println( f(true ? l : l));
+    System.out.print("long  char  : "); System.out.println( f(true ? l : c));
     System.out.println();
 
-    System.out.println("char  byte  : " + f(true ? c : b));
-    System.out.println("char  short : " + f(true ? c : s));
-    System.out.println("char  int   : " + f(true ? c : i));
-    System.out.println("char  long  : " + f(true ? c : l));
-    System.out.println("char  char  : " + f(true ? c : c));
+    System.out.print("char  byte  : "); System.out.println( f(true ? c : b));
+    System.out.print("char  short : "); System.out.println( f(true ? c : s));
+    System.out.print("char  int   : "); System.out.println( f(true ? c : i));
+    System.out.print("char  long  : "); System.out.println( f(true ? c : l));
+    System.out.print("char  char  : "); System.out.println( f(true ? c : c));
     System.out.println();
 
     System.out.println("Done!");

@@ -29,22 +29,22 @@ class B extends A {
   public static class Inner {
     public void test() {
       System.out.println("B.Inner instance ct:");
-      System.out.println(A.a + " " + B.b);
-      System.out.println(a + " " + b);
+      System.out.print(A.a ); System.out.print(" "); System.out.println( B.b);
+      System.out.print(a ); System.out.print(" "); System.out.println( b);
 
       a = "a_val_2";
       b = "b_val_2";
-      System.out.println(a + " " + b);
+      System.out.print(a ); System.out.print(" "); System.out.println( b);
     }
 
     public static void staticTest() {
       System.out.println("B.Inner static ct:");
-      System.out.println(A.a + " " + B.b);
-      System.out.println(a + " " + b);
+      System.out.print(A.a ); System.out.print(" "); System.out.println( B.b);
+      System.out.print(a ); System.out.print(" "); System.out.println( b);
 
       a = "a_val_3";
       b = "b_val_3";
-      System.out.println(a + " " + b);
+      System.out.print(a ); System.out.print(" "); System.out.println( b);
     }
   }
 }

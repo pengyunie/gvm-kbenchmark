@@ -10,12 +10,12 @@ import p.pc.B;
 
 public class packages_33_single_t_imp_multi {
   public static void main(String[] args) {
-    System.out.println("main     : A = " + new A());
-    System.out.println("main     : B = " + new B());
-    System.out.println("Test     : A = " + new Test().createA());
-    System.out.println("Test     : B = " + new Test().createB());
-    System.out.println("p.pb.Test: A = " + new p.pb.Test().createA());
-    System.out.println("p.pb.Test: B = " + new p.pb.Test().createB());
+    System.out.print("main     : A = "); System.out.println( new A());
+    System.out.print("main     : B = "); System.out.println( new B());
+    System.out.print("Test     : A = "); System.out.println( new Test().createA());
+    System.out.print("Test     : B = "); System.out.println( new Test().createB());
+    System.out.print("p.pb.Test: A = "); System.out.println( new p.pb.Test().createA());
+    System.out.print("p.pb.Test: B = "); System.out.println( new p.pb.Test().createB());
     System.out.println("Done!");
   }
 }

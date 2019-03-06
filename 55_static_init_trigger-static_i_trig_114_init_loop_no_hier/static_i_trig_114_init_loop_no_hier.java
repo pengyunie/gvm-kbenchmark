@@ -20,7 +20,7 @@ class A {
   static int v = T.trace(C.v + 3);
 
   static {
-    System.out.println("C.v=" + C.v);
+    System.out.print("C.v="); System.out.println( C.v);
   }
 
 }
@@ -43,7 +43,7 @@ class C {
   static int v = T.trace(B.v + 100);
 
   static {
-    System.out.println("C.v=" + C.v);
+    System.out.print("C.v="); System.out.println( C.v);
   }
 
   static void f() {
@@ -53,7 +53,7 @@ class C {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

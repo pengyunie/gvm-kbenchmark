@@ -12,17 +12,17 @@ public class method_41_qualifier_order {
   }
 
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }
 
 class A {
   A(int a) {
-    System.out.println("A.A(" + a + ")");
+    System.out.print("A.A("); System.out.print(a ); System.out.println( ")");
   }
 
   void f(int a) {
-    System.out.println("A.f(" + a + ")");
+    System.out.print("A.f("); System.out.print(a ); System.out.println( ")");
   }
 }

@@ -19,7 +19,7 @@ class main {
 
   void printArray(int[] v1) {
     for(int i=0; i<3; i++) {
-      System.out.print(v1[i] + " ");
+      System.out.print(v1[i] ); System.out.print( " ");
     }
     System.out.println();
   }

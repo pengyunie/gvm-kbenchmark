@@ -2,6 +2,6 @@ package pack;
 
 public class Test {
   public Test() {
-    System.out.println(new A() + " " + new B());
+    System.out.print(new A() ); System.out.print(" "); System.out.println( new B());
   }
 }

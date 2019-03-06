@@ -6,7 +6,7 @@ A < I1{f()}. Instantiate A and call the method f. I1 init is not triggered.
 public class static_i_trig_205_intf_m_call_no_init {
   public static void main(String[] args) {
     ((I1) new A()).f();
-    System.out.println("I1.a=" + I1.a);
+    System.out.print("I1.a="); System.out.println( I1.a);
     System.out.println("Done!");
   }
 }
@@ -32,7 +32,7 @@ class A implements I1 {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

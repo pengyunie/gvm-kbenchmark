@@ -13,7 +13,7 @@ public class continue_label_11_L_block_L_w {
           continue label_1;
         }
       }
-      System.out.print(j+" ");
+      System.out.print(j); System.out.print(" ");
     }
     System.out.println();
     System.out.println("Done!");

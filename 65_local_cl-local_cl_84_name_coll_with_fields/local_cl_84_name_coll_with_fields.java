@@ -55,11 +55,11 @@ class O {
     a va = new a();
     f vf = new f();
     b vb = new b();
-    System.out.println("instance of a: " + va);
-    System.out.println("instance of f: " + vf);
-    System.out.println("instance of b: " + vb);
-    System.out.println("a = " + a);
-    System.out.println("f() =  " + f());
-    System.out.println("b = " + b);
+    System.out.print("instance of a: "); System.out.println( va);
+    System.out.print("instance of f: "); System.out.println( vf);
+    System.out.print("instance of b: "); System.out.println( vb);
+    System.out.print("a = "); System.out.println( a);
+    System.out.print("f() =  "); System.out.println( f());
+    System.out.print("b = "); System.out.println( b);
   }
 }

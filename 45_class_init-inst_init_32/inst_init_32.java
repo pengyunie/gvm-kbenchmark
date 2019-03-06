@@ -5,14 +5,14 @@ Instance initializer, then field initializer, initializing the same field, then 
 class A {
 
   {
-    System.out.println("inst init begin, a = " + this.a);
+    System.out.print("inst init begin, a = "); System.out.println( this.a);
     a = 3;
   }
 
   int a = 2;
 
   A() {
-    System.out.println("constr begin, a = " + a);
+    System.out.print("constr begin, a = "); System.out.println( a);
   }
 }
 

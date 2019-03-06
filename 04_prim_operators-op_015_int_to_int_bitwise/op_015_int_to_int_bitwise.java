@@ -8,7 +8,7 @@ class main {
 
 	void printAll(String[] vs, int[] v) {
 		for (int i = 0; i<nrOps; i++) {
-      System.out.println(vs[i]+" = "+v[i]);
+      System.out.print(vs[i]); System.out.print(" = "); System.out.println(v[i]);
 		}
 	}
 

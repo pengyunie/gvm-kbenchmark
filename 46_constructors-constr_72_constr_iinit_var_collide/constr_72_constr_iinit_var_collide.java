@@ -8,11 +8,11 @@ class A {
 
   {
     String a = "IInit.a";
-    System.out.println("A.IInit(" + a + ")");
+    System.out.print("A.IInit("); System.out.print(a ); System.out.println( ")");
   }
 
   A(String a) {
-    System.out.println("A.A(" + a + ")");
+    System.out.print("A.A("); System.out.print(a ); System.out.println( ")");
   }
 }
 

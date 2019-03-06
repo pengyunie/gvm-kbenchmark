@@ -18,13 +18,13 @@ class O {
   class A {
 
     A(int a, int b) {
-      System.out.println("A: a = "+ a + ", b = "+ b);
+      System.out.print("A: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
       O.this.a = a;
       O.this.b = b;
     }
 
     void test() {
-      System.out.println("A.test: a = "+ a + ", b = "+ b);
+      System.out.print("A.test: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
     }
   }
 

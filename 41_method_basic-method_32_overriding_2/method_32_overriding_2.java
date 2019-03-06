@@ -17,7 +17,7 @@ public class method_32_overriding_2 {
   public static void main(String[] args) {
     c1 o1 = new c1();
     c2 o2 = new c2();
-    System.out.println(""+o1.m1()+ o1.m2()+ o1.m3()+ o2.m1()+ o2.m2()+ o2.m3());
+    System.out.print(""); System.out.print(o1.m1()); System.out.print(o1.m2()); System.out.print(o1.m3()); System.out.print(o2.m1()); System.out.print(o2.m2()); System.out.println( o2.m3());
     System.out.println("Done!");
   }
 }

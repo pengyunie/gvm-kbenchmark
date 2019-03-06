@@ -6,9 +6,9 @@ Interface with a constant initialized with an int value and a traced static init
 
 class const_02_in_interface {
   public static void main(String[] argv) {
-    System.out.println("Constant: " + I1.x);
-    System.out.println("Regular static: " + I1.y);
-    System.out.println("Constant: " + I1.x);
+    System.out.print("Constant: "); System.out.println( I1.x);
+    System.out.print("Regular static: "); System.out.println( I1.y);
+    System.out.print("Constant: "); System.out.println( I1.x);
     System.out.println("Done!");
   }
 }
@@ -20,7 +20,7 @@ interface I1 {
 
 class Auxx {
   static int traceAndGet(int a) {
-    System.out.println("Trace: " + a);
+    System.out.print("Trace: "); System.out.println( a);
     return a;
   }
 }

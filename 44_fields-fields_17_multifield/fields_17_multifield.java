@@ -12,7 +12,7 @@ public class fields_17_multifield {
     a.a = 1;
     a.b = 2;
     a.c = 4;
-    System.out.println("" + a.a + " " + a.b + " " + a.c);
+    System.out.print(""); System.out.print(a.a ); System.out.print(" "); System.out.print(a.b ); System.out.print(" "); System.out.println( a.c);
     System.out.println("Done!");
   }
 }

@@ -31,16 +31,16 @@ class O {
     }
 
     void test() {
-      System.out.println("O.A: av          = " + av);
-      System.out.println("O.A: af()        = " + af());
-      System.out.println("O.A: ov          = " + ov);
-      System.out.println("O.A: of()        = " + of());
-      System.out.println("O.A: this.ov     = " + this.ov);
-      System.out.println("O.A: this.of()   = " + this.of());
-      System.out.println("O.A: super.ov    = " + super.ov);
-      System.out.println("O.A: super.of()  = " + super.of());
-      System.out.println("O.A: O.this.ov   = " + O.this.ov);
-      System.out.println("O.A: O.this.of() = " + O.this.of());
+      System.out.print("O.A: av          = "); System.out.println( av);
+      System.out.print("O.A: af()        = "); System.out.println( af());
+      System.out.print("O.A: ov          = "); System.out.println( ov);
+      System.out.print("O.A: of()        = "); System.out.println( of());
+      System.out.print("O.A: this.ov     = "); System.out.println( this.ov);
+      System.out.print("O.A: this.of()   = "); System.out.println( this.of());
+      System.out.print("O.A: super.ov    = "); System.out.println( super.ov);
+      System.out.print("O.A: super.of()  = "); System.out.println( super.of());
+      System.out.print("O.A: O.this.ov   = "); System.out.println( O.this.ov);
+      System.out.print("O.A: O.this.of() = "); System.out.println( O.this.of());
     }
   }
 }

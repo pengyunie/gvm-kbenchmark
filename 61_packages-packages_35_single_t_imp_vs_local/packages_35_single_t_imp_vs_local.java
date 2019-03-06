@@ -9,9 +9,9 @@ import pt.Test;
 public class packages_35_single_t_imp_vs_local {
   public static void main(String[] args) {
     Test test = new Test();
-    System.out.println("pt.Test : A = " + test.createA());
-    System.out.println("pt.Test : B = " + test.createB());
-    System.out.println("pt.Test : C = " + test.createC());
+    System.out.print("pt.Test : A = "); System.out.println( test.createA());
+    System.out.print("pt.Test : B = "); System.out.println( test.createB());
+    System.out.print("pt.Test : C = "); System.out.println( test.createC());
     System.out.println("Done!");
   }
 }

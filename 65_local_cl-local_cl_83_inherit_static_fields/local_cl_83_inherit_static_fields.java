@@ -21,7 +21,7 @@ class O {
     class LA extends Statics {}
 
     LA la = new LA();
-    System.out.println("LA.sv = " + LA.sv);
-    System.out.println("la.sv = " + la.sv);
+    System.out.print("LA.sv = "); System.out.println( LA.sv);
+    System.out.print("la.sv = "); System.out.println( la.sv);
   }
 }

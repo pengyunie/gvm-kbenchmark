@@ -31,7 +31,7 @@ class O {
       int c = 300;
 
       public void test() {
-        System.out.println("anon: a = "+ a + ", b = " + b + ", c = " + c + ", d = " + d);
+        System.out.print("anon: a = "); System.out.print(a ); System.out.print(", b = "); System.out.print(b ); System.out.print(", c = "); System.out.print(c ); System.out.print(", d = "); System.out.println( d);
       }
     };
 

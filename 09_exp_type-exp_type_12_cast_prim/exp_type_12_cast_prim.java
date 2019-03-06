@@ -8,8 +8,8 @@ public class exp_type_12_cast_prim {
   public static void main(String[] args) {
     long a = 10;
 
-    System.out.println("f(true  ? (byte)getL(1) : (int)getL(4)): " + f(true  ? (byte)getL(1) : (int)getL(4)));
-    System.out.println("f(false ? (byte)getL(1) : (int)getL(4)): " + f(false ? (byte)getL(1) : (int)getL(4)));
+    System.out.print("f(true  ? (byte)getL(1) : (int)getL(4)): "); System.out.println( f(true  ? (byte)getL(1) : (int)getL(4)));
+    System.out.print("f(false ? (byte)getL(1) : (int)getL(4)): "); System.out.println( f(false ? (byte)getL(1) : (int)getL(4)));
 
     System.out.println("Done!");
   }
@@ -23,7 +23,7 @@ public class exp_type_12_cast_prim {
   }
 
   static long getL(long a) {
-    System.out.println("getL(" + a + ")");
+    System.out.print("getL("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

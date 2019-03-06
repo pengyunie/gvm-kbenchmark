@@ -8,7 +8,7 @@ No instance fields/initializers.
 class A {
 
   A(int a) {
-    System.out.println("A.A("+a+")");
+    System.out.print("A.A("); System.out.print(a); System.out.println(")");
   }
 }
 

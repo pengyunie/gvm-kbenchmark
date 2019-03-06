@@ -26,18 +26,18 @@ class main {
 class A {
   int id;
   void print() {
-    System.out.println("A:" + id);
+    System.out.print("A:"); System.out.println( id);
   }
 }
 
 class B extends A{
   void print() {
-    System.out.println("B:" + id);
+    System.out.print("B:"); System.out.println( id);
   }
 }
 
 class C extends B{
   void print() {
-    System.out.println("C:" + id);
+    System.out.print("C:"); System.out.println( id);
   }
 }

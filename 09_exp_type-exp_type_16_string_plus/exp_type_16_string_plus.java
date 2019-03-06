@@ -21,7 +21,7 @@ public class exp_type_16_string_plus {
   }
 
   static Object get(Object o) {
-    System.out.println("get(" + o + ")");
+    System.out.print("get("); System.out.print(o ); System.out.println( ")");
     return o;
   }
 }

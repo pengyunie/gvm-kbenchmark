@@ -6,11 +6,11 @@ public class break_label_3_block_in_while {
     int i=0, a=0;
     while(i<3) {
       label_1: {
-        System.out.print("Before break "+ i+ ", ");
+        System.out.print("Before break "); System.out.print(i); System.out.print( ", ");
         if (true) break label_1;
         System.out.print("unreachable");
       }
-      System.out.println("after break "+ i);
+      System.out.print("after break "); System.out.println( i);
       i++;
     }
     System.out.println("Done!");

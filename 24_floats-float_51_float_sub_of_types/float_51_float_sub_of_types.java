@@ -17,10 +17,10 @@ public class float_51_float_sub_of_types {
   }
 
   static void f(float a) {
-    System.out.println("float  a = " + a);
+    System.out.print("float  a = "); System.out.println( a);
   }
 
   static void f(double a) {
-    System.out.println("double a = " + a);
+    System.out.print("double a = "); System.out.println( a);
   }
 }

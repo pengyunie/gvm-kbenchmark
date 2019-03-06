@@ -8,7 +8,7 @@ public class return_03_ret_number {
 
 class test {
   test() {
-    System.out.println("f() = " + f());
+    System.out.print("f() = "); System.out.println( f());
   }
 
   int f() {

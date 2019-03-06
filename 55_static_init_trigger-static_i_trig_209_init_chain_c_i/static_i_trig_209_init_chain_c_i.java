@@ -6,7 +6,7 @@ Init triggering chain for class/interface mix.
 
 public class static_i_trig_209_init_chain_c_i {
   public static void main(String[] args) {
-    System.out.println("A.b=" + A.b);
+    System.out.print("A.b="); System.out.println( A.b);
     System.out.println("Done!");
   }
 }
@@ -34,7 +34,7 @@ class A {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

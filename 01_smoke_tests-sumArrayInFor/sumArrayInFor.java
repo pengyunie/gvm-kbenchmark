@@ -13,7 +13,7 @@ public class sumArrayInFor {
 		for(i=0; i<=n; i++) {
 			s = s + v[i];
 		}
-		System.out.println("sum 1.."+ n+ "="+ s);
+		System.out.print("sum 1.."); System.out.print(n); System.out.print("="); System.out.println( s);
     System.out.println("Done!");
 	}
 }

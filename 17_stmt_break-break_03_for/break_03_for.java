@@ -6,10 +6,10 @@ public class break_03_for {
     int i;
     for(i=0; i<10; i++) {
       if (i >= 5) break;
-      System.out.print(i+" ");
+      System.out.print(i); System.out.print(" ");
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

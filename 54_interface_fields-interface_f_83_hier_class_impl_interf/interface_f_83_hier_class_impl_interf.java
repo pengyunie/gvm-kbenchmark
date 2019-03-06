@@ -5,7 +5,7 @@ Hierarchy type A < I1. A class init accesses fields in I1 unqualified.
 
 public class interface_f_83_hier_class_impl_interf {
   public static void main(String[] args) {
-    System.out.println("A.c = " + A.c);
+    System.out.print("A.c = "); System.out.println( A.c);
     System.out.println("Done!");
   }
 }
@@ -30,7 +30,7 @@ class A implements I1 {
 
 class Auxx {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

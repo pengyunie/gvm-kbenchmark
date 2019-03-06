@@ -12,7 +12,7 @@ class A {
 
 public class static_f_init_108_multifield {
   public static void main(String[] args) {
-    System.out.println("" + A.a + " " + A.b + " " + A.c + " " + A.d + " " + A.e + " " + A.f);
+    System.out.print(""); System.out.print(A.a ); System.out.print(" "); System.out.print(A.b ); System.out.print(" "); System.out.print(A.c ); System.out.print(" "); System.out.print(A.d ); System.out.print(" "); System.out.print(A.e ); System.out.print(" "); System.out.println( A.f);
     System.out.println("Done!");
   }
 }

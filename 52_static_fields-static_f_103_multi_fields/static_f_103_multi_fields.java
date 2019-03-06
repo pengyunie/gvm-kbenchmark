@@ -23,6 +23,6 @@ class A {
   }
 
   void printFields() {
-    System.out.println(p + " " + q + " " + r + " " + s);
+    System.out.print(p ); System.out.print(" "); System.out.print(q ); System.out.print(" "); System.out.print(r ); System.out.print(" "); System.out.println( s);
   }
 }

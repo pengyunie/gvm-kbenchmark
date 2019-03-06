@@ -9,7 +9,7 @@ class main {
     do {
       int i = 10;
     } while (false);
-    System.out.println("After doWhile i = "+ i);
+    System.out.print("After doWhile i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

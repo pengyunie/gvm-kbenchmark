@@ -20,7 +20,7 @@ class main {
     System.out.println(fBool());
     System.out.println(fString());
     System.out.println(fRE("re"));
-    System.out.println(fVInt()[0]+" "+fVInt()[1]);
+    System.out.print(fVInt()[0]); System.out.print(" "); System.out.println(fVInt()[1]);
 
     Object o = fRE("obj re");
     fRE("ignored re");
@@ -39,7 +39,7 @@ class main {
   }
 
   RuntimeException fRE(String s) {
-    System.out.println("fRE(" +s+")");
+    System.out.print("fRE("); System.out.print(s); System.out.println(")");
     return new RuntimeException(s);
   }
 

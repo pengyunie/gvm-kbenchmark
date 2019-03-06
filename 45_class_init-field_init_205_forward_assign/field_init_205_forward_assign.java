@@ -16,7 +16,7 @@ class A {
 public class field_init_205_forward_assign {
   public static void main(String[] args) {
     A a = new A();
-    System.out.println("" + a.b1 + " " + a.b2);
+    System.out.print(""); System.out.print(a.b1 ); System.out.print(" "); System.out.println( a.b2);
     System.out.println("Done!");
   }
 }

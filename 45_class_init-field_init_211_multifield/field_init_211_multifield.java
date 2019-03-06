@@ -13,7 +13,7 @@ class A {
 public class field_init_211_multifield {
   public static void main(String[] args) {
     A a = new A();
-    System.out.println("" + a.a + " " + a.b + " " + a.c + " " + a.d + " " + a.e + " " + a.f);
+    System.out.print(""); System.out.print(a.a ); System.out.print(" "); System.out.print(a.b ); System.out.print(" "); System.out.print(a.c ); System.out.print(" "); System.out.print(a.d ); System.out.print(" "); System.out.print(a.e ); System.out.print(" "); System.out.println( a.f);
     System.out.println("Done!");
   }
 }

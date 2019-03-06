@@ -22,10 +22,10 @@ class main {
   }
 
   void f(long a) {
-    System.out.println("long: " + a);
+    System.out.print("long: "); System.out.println( a);
   }
 
   void f(A a) {
-    System.out.println("A: " + (a != null ? a.getClass().getName() : null));
+    System.out.print("A: "); System.out.println( (a != null ? a.getClass().getName() : null));
   }
 }

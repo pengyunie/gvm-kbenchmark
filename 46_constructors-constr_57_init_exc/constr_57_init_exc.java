@@ -9,7 +9,7 @@ class A {
     System.out.println("A.init");
   }
   A(int a) {
-    System.out.println("A.A("+a+")");
+    System.out.print("A.A("); System.out.print(a); System.out.println(")");
   }
 }
 

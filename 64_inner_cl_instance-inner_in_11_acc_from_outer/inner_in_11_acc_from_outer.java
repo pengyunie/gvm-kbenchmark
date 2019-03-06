@@ -13,8 +13,8 @@ class O {
 
   O() {
     A a = new A();
-    System.out.println("O: a.v   = " + a.v);
-    System.out.println("O: a.f() = " + a.f());
+    System.out.print("O: a.v   = "); System.out.println( a.v);
+    System.out.print("O: a.f() = "); System.out.println( a.f());
   }
 
   class A {

@@ -7,7 +7,7 @@ public class read {
     Scanner scanner = new Scanner(System.in);
     int a = scanner.nextInt();
     int b = scanner.nextInt();
-    System.out.println("You inserted: " + a + " " + b);
+    System.out.print("You inserted: "); System.out.print(a ); System.out.print(" "); System.out.println( b);
     System.out.println("Done!");
 	}
 }

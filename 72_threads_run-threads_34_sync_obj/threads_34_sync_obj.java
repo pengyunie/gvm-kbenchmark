@@ -40,9 +40,9 @@ class MyThread extends Thread {
 
   public static void sync(int id) {
     synchronized(monitor) {
-      System.out.println("Thread" + id + " before: v = " + v);
+      System.out.print("Thread"); System.out.print(id ); System.out.print(" before: v = "); System.out.println( v);
       v = id;
-      System.out.println("Thread" + id + " after:  v = " + v);
+      System.out.print("Thread"); System.out.print(id ); System.out.print(" after:  v = "); System.out.println( v);
     }
   }
 }

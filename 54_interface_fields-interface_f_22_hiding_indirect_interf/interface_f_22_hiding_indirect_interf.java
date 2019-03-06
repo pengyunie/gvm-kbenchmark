@@ -7,7 +7,7 @@ Fields hiding involving an interface:
 
 public class interface_f_22_hiding_indirect_interf {
   public static void main(String[] args) {
-    System.out.println(I1.v + " " + I3.v);
+    System.out.print(I1.v ); System.out.print(" "); System.out.println( I3.v);
     System.out.println("Done!");
   }
 }

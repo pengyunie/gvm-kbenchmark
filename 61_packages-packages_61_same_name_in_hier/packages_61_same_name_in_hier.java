@@ -13,12 +13,12 @@ public class packages_61_same_name_in_hier {
     Object oa2 = new p2.A();
     new p1.B();
     new p2.B();
-    System.out.println("oa1: " + oa1);
-    System.out.println("oa2: " + oa2);
-    System.out.println("oa1 instanceof p1.A: " + (oa1 instanceof p1.A));
-    System.out.println("oa1 instanceof p2.A: " + (oa1 instanceof p2.A));
-    System.out.println("oa2 instanceof p1.A: " + (oa2 instanceof p1.A));
-    System.out.println("oa2 instanceof p2.A: " + (oa2 instanceof p2.A));
+    System.out.print("oa1: "); System.out.println( oa1);
+    System.out.print("oa2: "); System.out.println( oa2);
+    System.out.print("oa1 instanceof p1.A: "); System.out.println( (oa1 instanceof p1.A));
+    System.out.print("oa1 instanceof p2.A: "); System.out.println( (oa1 instanceof p2.A));
+    System.out.print("oa2 instanceof p1.A: "); System.out.println( (oa2 instanceof p1.A));
+    System.out.print("oa2 instanceof p2.A: "); System.out.println( (oa2 instanceof p2.A));
 
     System.out.println("Done!");
   }

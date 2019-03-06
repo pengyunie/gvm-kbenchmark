@@ -9,11 +9,11 @@ public class break_10_L_block_while {
       label_1: {
         if (i >= 5) break;
       }
-      System.out.print(i+" ");
+      System.out.print(i); System.out.print(" ");
       i++;
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

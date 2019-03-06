@@ -16,7 +16,7 @@ class O {
     int param;
 
     A(int param) {
-      System.out.println("A: param = "+ param);
+      System.out.print("A: param = "); System.out.println( param);
       this.param = param;
     }
 
@@ -26,7 +26,7 @@ class O {
   void test() {
     A a = new A(3) {
       public void test() {
-        System.out.println("anon: param = "+ param);
+        System.out.print("anon: param = "); System.out.println( param);
       }
     };
 

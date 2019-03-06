@@ -9,13 +9,13 @@ public class throw_03_tryCF_tryC {
         if (true) throw new ExA();
         System.out.println("unreachable");
       } catch(ExB e) {
-        System.out.println("caught ExB: " + e.toString());
+        System.out.print("caught ExB: "); System.out.println( e.toString());
       } finally {
         System.out.println("finally");
       }
       System.out.println("unreachable");
     } catch (ExA e) {
-      System.out.println("caught ExA: " + e.toString());
+      System.out.print("caught ExA: "); System.out.println( e.toString());
     }
     System.out.println("Done!");
   }

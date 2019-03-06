@@ -36,10 +36,10 @@ class O2 {
     String bv = "O2.B.bv";
 
     void test() {
-      System.out.println("O2.B: bv          = " + bv);
-      System.out.println("O2.B: av          = " + av);
-      System.out.println("O2.B: o2v         = " + o2v);
-      System.out.println("O2.B: getO1v()    = " + getO1v());
+      System.out.print("O2.B: bv          = "); System.out.println( bv);
+      System.out.print("O2.B: av          = "); System.out.println( av);
+      System.out.print("O2.B: o2v         = "); System.out.println( o2v);
+      System.out.print("O2.B: getO1v()    = "); System.out.println( getO1v());
     }
   }
 }

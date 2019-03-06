@@ -28,9 +28,9 @@ public class fields_131_hiding_local_access {
     o2.setx1(11);
     o2.sety1(12);
     o2.sety2(99);
-    System.out.print(o2.getx1()+ " ");
-    System.out.print(o2.gety1()+ " ");
-    System.out.print(o2.getx2()+ " ");
+    System.out.print(o2.getx1()); System.out.print( " ");
+    System.out.print(o2.gety1()); System.out.print( " ");
+    System.out.print(o2.getx2()); System.out.print( " ");
     System.out.println(o2.gety2());
     System.out.println("Done!");
   }

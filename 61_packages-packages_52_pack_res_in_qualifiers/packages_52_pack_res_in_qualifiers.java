@@ -19,46 +19,46 @@ public class packages_52_pack_res_in_qualifiers {
     //A
     new A();
     A.f();
-    System.out.println("A.v = " + A.v);
+    System.out.print("A.v = "); System.out.println( A.v);
     A.v = 7;
     System.out.println("Executed A.v = 7.");
-    System.out.println("A.v = " + A.v);
+    System.out.print("A.v = "); System.out.println( A.v);
     System.out.println();
 
     //B
     new B();
     B.f();
-    System.out.println("B.v = " + B.v);
+    System.out.print("B.v = "); System.out.println( B.v);
     B.v = 7;
     System.out.println("Executed B.v = 7.");
-    System.out.println("B.v = " + B.v);
+    System.out.print("B.v = "); System.out.println( B.v);
     System.out.println();
 
     //C
     new C();
     C.f();
-    System.out.println("C.v = " + C.v);
+    System.out.print("C.v = "); System.out.println( C.v);
     C.v = 7;
     System.out.println("Executed C.v = 7.");
-    System.out.println("C.v = " + C.v);
+    System.out.print("C.v = "); System.out.println( C.v);
     System.out.println();
 
     //p3.A
     new p3.A();
     p3.A.f();
-    System.out.println("p3.A.v = " + p3.A.v);
+    System.out.print("p3.A.v = "); System.out.println( p3.A.v);
     p3.A.v = 7;
     System.out.println("Executed p3.A.v = 7.");
-    System.out.println("p3.A.v = " + p3.A.v);
+    System.out.print("p3.A.v = "); System.out.println( p3.A.v);
     System.out.println();
 
     //p3.C
     new p3.C();
     p3.C.f();
-    System.out.println("p3.C.v = " + p3.C.v);
+    System.out.print("p3.C.v = "); System.out.println( p3.C.v);
     p3.C.v = 7;
     System.out.println("Executed p3.C.v = 7.");
-    System.out.println("p3.C.v = " + p3.C.v);
+    System.out.print("p3.C.v = "); System.out.println( p3.C.v);
     System.out.println();
 
     System.out.println("Done!");

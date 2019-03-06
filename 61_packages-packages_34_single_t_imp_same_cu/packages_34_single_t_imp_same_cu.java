@@ -9,10 +9,10 @@ import p.pb.A;
 
 public class packages_34_single_t_imp_same_cu {
   public static void main(String[] args) {
-    System.out.println("main     : A = " + new A());
-    System.out.println("Test     : A = " + new Test().createA());
-    System.out.println("pt.Test1 : A = " + new pt.Test1().createA());
-    System.out.println("pt.Test2 : A = " + new pt.Test1().createTest2A());
+    System.out.print("main     : A = "); System.out.println( new A());
+    System.out.print("Test     : A = "); System.out.println( new Test().createA());
+    System.out.print("pt.Test1 : A = "); System.out.println( new pt.Test1().createA());
+    System.out.print("pt.Test2 : A = "); System.out.println( new pt.Test1().createTest2A());
     System.out.println("Done!");
   }
 }

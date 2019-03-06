@@ -7,7 +7,7 @@ Interface field hides a private field inherited from superclass.
 public class interface_f_92_field_double_inh {
   public static void main(String[] args) {
     B.test();
-    System.out.println("Outside B: B.x = " + B.x);
+    System.out.print("Outside B: B.x = "); System.out.println( B.x);
     System.out.println("Done!");
   }
 }
@@ -22,6 +22,6 @@ class A {
 
 class B extends A implements I1 {
   static void test() {
-    System.out.println("Inside B: x = " + x);
+    System.out.print("Inside B: x = "); System.out.println( x);
   }
 }

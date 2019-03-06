@@ -14,7 +14,7 @@ public class interface_71_array_of_intf_shapes {
     shapes[2] = new Rectangle(3, 3);
 
     IShape maxShape = max(shapes);
-    System.out.println("maxShape = " + maxShape);
+    System.out.print("maxShape = "); System.out.println( maxShape);
     System.out.println("Done!");
   }
 

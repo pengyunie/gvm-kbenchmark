@@ -7,8 +7,8 @@ Class init triggering block environment separation.
 public class static_i_trig_116_env_separation {
   public static void main(String[] args) {
     int x = 1;
-    System.out.println("x = " + x);
-    System.out.println("A.x = " + A.x);
+    System.out.print("x = "); System.out.println( x);
+    System.out.print("A.x = "); System.out.println( A.x);
     System.out.println("Done!");
   }
 }

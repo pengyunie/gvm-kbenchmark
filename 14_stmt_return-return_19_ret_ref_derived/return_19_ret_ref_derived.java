@@ -14,7 +14,7 @@ public class return_19_ret_ref_derived {
 
 class test {
   test() {
-    System.out.println("f() = " + f().toString());
+    System.out.print("f() = "); System.out.println( f().toString());
   }
 
   RuntimeException f() {

@@ -17,8 +17,8 @@ class A {
 public class fields_16_default_value {
   public static void main(String[] args) {
     A a = new A();
-    System.out.println("" + a.b + " " + a.s + " " + a.i + " " + a.l + " " + a.ch + " " + a.bool
-                    + " " + a.str + " " + a.re + " ");
+    System.out.print(""); System.out.print(a.b ); System.out.print(" "); System.out.print(a.s ); System.out.print(" "); System.out.print(a.i ); System.out.print(" "); System.out.print(a.l ); System.out.print(" "); System.out.print(a.ch ); System.out.print(" "); System.out.print(a.bool
+                    ); System.out.print(" "); System.out.print(a.str ); System.out.print(" "); System.out.print(a.re ); System.out.println( " ");
     System.out.println("Done!");
   }
 }

@@ -9,13 +9,13 @@ public class continue_label_06_finally_for {
     for(i=0; i<10; i++) {
       try {
         if (i % 2 != 0) continue label_1;
-        System.out.print(i+"-");
+        System.out.print(i); System.out.print("-");
       } finally {
-        System.out.print(i+ " ");
+        System.out.print(i); System.out.print( " ");
       }
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

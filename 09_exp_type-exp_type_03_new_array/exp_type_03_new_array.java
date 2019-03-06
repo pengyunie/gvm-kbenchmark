@@ -7,8 +7,8 @@ f(): print array length
 
 public class exp_type_03_new_array {
   public static void main(String[] args) {
-    System.out.println("f(true  ? new B[get(1)] : new A[get(2)]): " + f(true  ? new B[get(1)] : new A[get(2)]));
-    System.out.println("f(false ? new B[get(1)] : new A[get(2)]): " + f(false ? new B[get(1)] : new A[get(2)]));
+    System.out.print("f(true  ? new B[get(1)] : new A[get(2)]): "); System.out.println( f(true  ? new B[get(1)] : new A[get(2)]));
+    System.out.print("f(false ? new B[get(1)] : new A[get(2)]): "); System.out.println( f(false ? new B[get(1)] : new A[get(2)]));
     System.out.println("Done!");
   }
 
@@ -21,7 +21,7 @@ public class exp_type_03_new_array {
   }
 
   static int get(int a) {
-    System.out.println("get(" + a + ")");
+    System.out.print("get("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

@@ -9,7 +9,7 @@ Interaction with loops. One loop inside a switch group, one loop enclosing
 public class switch_06_continue {
 	public static void main(String[] args) {
     for(int i=0; i<4; i++) {
-      System.out.print(i+": ");
+      System.out.print(i); System.out.print(": ");
       switch (i) {
         case 1:
           System.out.print("1 ");

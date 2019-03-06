@@ -28,7 +28,7 @@ class O1 {
     }
 
     void test() {
-      System.out.println("O1.A.test: v=" + v + ", a=" + a + ", b=" + b);
+      System.out.print("O1.A.test: v="); System.out.print(v ); System.out.print(", a="); System.out.print(a ); System.out.print(", b="); System.out.println( b);
     }
   }
 }

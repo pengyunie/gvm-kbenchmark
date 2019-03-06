@@ -37,7 +37,7 @@ class main {
 
   void printArray(NullPointerException[] v1, int len) {
     for(int i=0; i<len; i++) {
-      System.out.print(v1[i] + " ");
+      System.out.print(v1[i] ); System.out.print( " ");
     }
     System.out.println();
   }

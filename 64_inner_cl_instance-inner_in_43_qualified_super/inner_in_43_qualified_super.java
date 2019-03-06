@@ -39,26 +39,26 @@ class O3 extends O2 {
     String f() {return "C.f()";}
 
     void test() {
-      System.out.println("O3.C: v           = " + v);
-      System.out.println("O3.C: v=1         = " + (v=1));
-      System.out.println("O3.C: v           = " + v);
-      System.out.println("O3.C: f()         = " + f());
-      System.out.println("O3.C: this.v      = " + this.v);
-      System.out.println("O3.C: this.v=2    = " + (this.v=2));
-      System.out.println("O3.C: this.v      = " + this.v);
-      System.out.println("O3.C: this.f()    = " + this.f());
-      System.out.println("O3.C: super.v     = " + super.v);
-      System.out.println("O3.C: super.v=3   = " + (super.v=3));
-      System.out.println("O3.C: super.v     = " + super.v);
-      System.out.println("O3.C: super.f()   = " + super.f());
-      System.out.println("O3.C: O3.this.v   = " + O3.this.v);
-      System.out.println("O3.C: O3.this.v=4 = " + (O3.this.v=4));
-      System.out.println("O3.C: O3.this.v   = " + O3.this.v);
-      System.out.println("O3.C: O3.this.f() = " + O3.this.f());
-      System.out.println("O3.C: O3.super.v  = " + O3.super.v);
-      System.out.println("O3.C: O3.super.v=5= " + (O3.super.v=5));
-      System.out.println("O3.C: O3.super.v  = " + O3.super.v);
-      System.out.println("O3.C: O3.super.f()= " + O3.super.f());
+      System.out.print("O3.C: v           = "); System.out.println( v);
+      System.out.print("O3.C: v=1         = "); System.out.println( (v=1));
+      System.out.print("O3.C: v           = "); System.out.println( v);
+      System.out.print("O3.C: f()         = "); System.out.println( f());
+      System.out.print("O3.C: this.v      = "); System.out.println( this.v);
+      System.out.print("O3.C: this.v=2    = "); System.out.println( (this.v=2));
+      System.out.print("O3.C: this.v      = "); System.out.println( this.v);
+      System.out.print("O3.C: this.f()    = "); System.out.println( this.f());
+      System.out.print("O3.C: super.v     = "); System.out.println( super.v);
+      System.out.print("O3.C: super.v=3   = "); System.out.println( (super.v=3));
+      System.out.print("O3.C: super.v     = "); System.out.println( super.v);
+      System.out.print("O3.C: super.f()   = "); System.out.println( super.f());
+      System.out.print("O3.C: O3.this.v   = "); System.out.println( O3.this.v);
+      System.out.print("O3.C: O3.this.v=4 = "); System.out.println( (O3.this.v=4));
+      System.out.print("O3.C: O3.this.v   = "); System.out.println( O3.this.v);
+      System.out.print("O3.C: O3.this.f() = "); System.out.println( O3.this.f());
+      System.out.print("O3.C: O3.super.v  = "); System.out.println( O3.super.v);
+      System.out.print("O3.C: O3.super.v=5= "); System.out.println( (O3.super.v=5));
+      System.out.print("O3.C: O3.super.v  = "); System.out.println( O3.super.v);
+      System.out.print("O3.C: O3.super.f()= "); System.out.println( O3.super.f());
     }
   }
 }

@@ -8,15 +8,15 @@ public class interface_15_instof_interf_multi_ext {
     IA a = new A();
     IB b = new B();
     IC c = new C();
-    System.out.println("A instanceof IA "+ (a instanceof IA));
-    System.out.println("A instanceof IB "+ (a instanceof IB));
-    System.out.println("A instanceof IC "+ (a instanceof IC));
-    System.out.println("B instanceof IA "+ (b instanceof IA));
-    System.out.println("B instanceof IB "+ (b instanceof IB));
-    System.out.println("B instanceof IC "+ (b instanceof IC));
-    System.out.println("C instanceof IA "+ (c instanceof IA));
-    System.out.println("C instanceof IB "+ (c instanceof IB));
-    System.out.println("C instanceof IC "+ (c instanceof IC));
+    System.out.print("A instanceof IA "); System.out.println( (a instanceof IA));
+    System.out.print("A instanceof IB "); System.out.println( (a instanceof IB));
+    System.out.print("A instanceof IC "); System.out.println( (a instanceof IC));
+    System.out.print("B instanceof IA "); System.out.println( (b instanceof IA));
+    System.out.print("B instanceof IB "); System.out.println( (b instanceof IB));
+    System.out.print("B instanceof IC "); System.out.println( (b instanceof IC));
+    System.out.print("C instanceof IA "); System.out.println( (c instanceof IA));
+    System.out.print("C instanceof IB "); System.out.println( (c instanceof IB));
+    System.out.print("C instanceof IC "); System.out.println( (c instanceof IC));
 
     System.out.println("Done!");
   }

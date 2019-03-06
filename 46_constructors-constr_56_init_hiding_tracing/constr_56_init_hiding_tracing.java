@@ -16,9 +16,9 @@ class A {
   int b = new Tracer().f(2);
 
   A(int a) {
-    System.out.println("A.A("+a+")");
-    System.out.println("A.A: this.a = "+this.a);
-    System.out.println("A.A: this.b = "+this.b);
+    System.out.print("A.A("); System.out.print(a); System.out.println(")");
+    System.out.print("A.A: this.a = "); System.out.println(this.a);
+    System.out.print("A.A: this.b = "); System.out.println(this.b);
   }
 }
 
@@ -35,16 +35,16 @@ class B extends A {
 
   B(int a) {
     super(new Tracer().f(4));
-    System.out.println("B.B("+a+")");
-    System.out.println("B.B: this.a = "+this.a);
-    System.out.println("B.B: this.b = "+this.b);
-    System.out.println("B.B: super.a = "+super.a);
+    System.out.print("B.B("); System.out.print(a); System.out.println(")");
+    System.out.print("B.B: this.a = "); System.out.println(this.a);
+    System.out.print("B.B: this.b = "); System.out.println(this.b);
+    System.out.print("B.B: super.a = "); System.out.println(super.a);
   }
 }
 
 class Tracer {
   int f(int a) {
-    System.out.println("Tracer.f(" + a + ")");
+    System.out.print("Tracer.f("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

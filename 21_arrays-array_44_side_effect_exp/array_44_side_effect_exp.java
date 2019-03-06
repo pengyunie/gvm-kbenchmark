@@ -20,7 +20,7 @@ public class array_44_side_effect_exp {
     --v[3];
     v[4]+=5;
     for(int i=0; i<5; i++) {
-      System.out.print(v[i] + " ");
+      System.out.print(v[i] ); System.out.print( " ");
     }
     System.out.println();
     System.out.println("Done!");

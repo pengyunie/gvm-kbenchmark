@@ -49,6 +49,6 @@ class A {
   }
 
   static void print() {
-    System.out.println("A.print(): " + a + " " + b + " " + c);
+    System.out.print("A.print(): "); System.out.print(a ); System.out.print(" "); System.out.print(b ); System.out.print(" "); System.out.println( c);
   }
 }

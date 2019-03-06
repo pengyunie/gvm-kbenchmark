@@ -17,7 +17,7 @@ public class fields_12_inheritance {
     b.a = 2;
     b.b = true;
     b.s = "abc";
-    System.out.println("" + b.a + " " + b.b + " " + b.s);
+    System.out.print(""); System.out.print(b.a ); System.out.print(" "); System.out.print(b.b ); System.out.print(" "); System.out.println( b.s);
     System.out.println("Done!");
   }
 }

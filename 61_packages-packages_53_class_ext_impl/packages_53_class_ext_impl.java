@@ -11,10 +11,10 @@ import p2.I;
 
 public class packages_53_class_ext_impl {
   public static void main(String[] args) {
-    System.out.println("Test1.va = " + Test1.va);
-    System.out.println("Test1.vi = " + Test1.vi);
-    System.out.println("Test2.va = " + Test2.va);
-    System.out.println("Test2.vi = " + Test2.vi);
+    System.out.print("Test1.va = "); System.out.println( Test1.va);
+    System.out.print("Test1.vi = "); System.out.println( Test1.vi);
+    System.out.print("Test2.va = "); System.out.println( Test2.va);
+    System.out.print("Test2.vi = "); System.out.println( Test2.vi);
     System.out.println("Done!");
   }
 }

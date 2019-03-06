@@ -10,11 +10,11 @@ import p1.*;
 public class inner_st_606_type_decl {
 
   public static void main(String[] args) {
-    System.out.println(C1.id + " " + C1.iid);
-    System.out.println(C2.id + " " + C2.iid);
-    System.out.println(p1.A.C1.id + " " + p1.A.C1.iid);
-    System.out.println(A.C1.id + " " + A.C1.iid);
-    System.out.println(C1.id + " " + C1.iid);
+    System.out.print(C1.id ); System.out.print(" "); System.out.println( C1.iid);
+    System.out.print(C2.id ); System.out.print(" "); System.out.println( C2.iid);
+    System.out.print(p1.A.C1.id ); System.out.print(" "); System.out.println( p1.A.C1.iid);
+    System.out.print(A.C1.id ); System.out.print(" "); System.out.println( A.C1.iid);
+    System.out.print(C1.id ); System.out.print(" "); System.out.println( C1.iid);
     System.out.println(I1.iid);
     System.out.println(I2.iid);
     System.out.println(p1.A.I1.iid);

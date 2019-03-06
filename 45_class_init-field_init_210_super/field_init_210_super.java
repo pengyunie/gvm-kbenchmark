@@ -28,7 +28,7 @@ class B extends A {
 public class field_init_210_super {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println("" + b.a + " " + b.b + " " + b.c);
+    System.out.print(""); System.out.print(b.a ); System.out.print(" "); System.out.print(b.b ); System.out.print(" "); System.out.println( b.c);
     System.out.println("Done!");
   }
 }

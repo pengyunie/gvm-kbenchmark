@@ -8,8 +8,7 @@ public class imp_conv_03_primitive_var_init {
     char ch1 = 50000;
     char ch2 = 'z';
     char ch3 = 100;
-    System.out.println("" + bt + " " + sh + " " + i + " " + l + " "
-        + (int)ch1 + " " + ch2 + " " + ch3);
+    System.out.print(""); System.out.print(bt ); System.out.print(" "); System.out.print(sh ); System.out.print(" "); System.out.print(i ); System.out.print(" "); System.out.print(l ); System.out.print(" "); System.out.print((int)ch1 ); System.out.print(" "); System.out.print(ch2 ); System.out.print(" "); System.out.println( ch3);
     System.out.println("Done!");
   }
 }

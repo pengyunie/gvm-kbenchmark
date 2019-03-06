@@ -24,7 +24,7 @@ class O {
       }
 
       {
-        System.out.println("O.Local.instInit: a = "+a + ", b = "+b);
+        System.out.print("O.Local.instInit: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println(b);
       }
     }
 

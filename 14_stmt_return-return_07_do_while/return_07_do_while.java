@@ -10,9 +10,9 @@ public class return_07_do_while {
 
 class test {
   test() {
-    System.out.println("isPrime(10) = " + isPrime(10));
-    System.out.println("isPrime(9) = " + isPrime(9));
-    System.out.println("isPrime(7) = " + isPrime(7));
+    System.out.print("isPrime(10) = "); System.out.println( isPrime(10));
+    System.out.print("isPrime(9) = "); System.out.println( isPrime(9));
+    System.out.print("isPrime(7) = "); System.out.println( isPrime(7));
   }
 
   //JBook semantics don't support operator String + boolean, that's why we need String here

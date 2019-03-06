@@ -18,7 +18,7 @@ public class method_42_qual_exception_order {
   }
 
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }
@@ -29,6 +29,6 @@ class A {
   }
 
   void f(int a) {
-    System.out.println("A.f(" + a + ")");
+    System.out.print("A.f("); System.out.print(a ); System.out.println( ")");
   }
 }

@@ -7,7 +7,7 @@ public class continue_10_for_label {
     label_1:
     for(int i=0; i<10; i++) {
       if (i % 2 != 0) continue;
-      System.out.print(i+" ");
+      System.out.print(i); System.out.print(" ");
     }
     System.out.println();
     System.out.println("Done!");

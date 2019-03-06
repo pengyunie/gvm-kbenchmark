@@ -13,7 +13,7 @@ public class inner_st_106_inner_impl_intf {
 
   public static void main(String[] args) {
     I1 i1 = new A.Inner();
-    System.out.println("(I1): " + i1.a + " " + i1.f());
+    System.out.print("(I1): "); System.out.print(i1.a ); System.out.print(" "); System.out.println( i1.f());
     System.out.println("Done!");
   }
 }

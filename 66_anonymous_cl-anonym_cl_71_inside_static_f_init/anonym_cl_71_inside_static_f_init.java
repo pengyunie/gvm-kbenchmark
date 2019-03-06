@@ -23,7 +23,7 @@ class O {
 
   static I1 i1 = new I1() {
     public void test() {
-      System.out.println("anon: v = "+ v + ", f() = " + f());
+      System.out.print("anon: v = "); System.out.print(v ); System.out.print(", f() = "); System.out.println( f());
     }
   };
 

@@ -8,8 +8,8 @@ public class return_05_if_then_else {
 
 class test {
   test() {
-    System.out.println("f(true) = " + f(true));
-    System.out.println("f(false) = " + f(false));
+    System.out.print("f(true) = "); System.out.println( f(true));
+    System.out.print("f(false) = "); System.out.println( f(false));
   }
 
   int f(boolean b) {

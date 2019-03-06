@@ -5,7 +5,7 @@ Access to an interface field. Through a sub-interface.
 
 public class interface_f_12_sub_interface_target {
   public static void main(String[] args) {
-    System.out.println(I2.v + " " + ((I2) new A()).v);
+    System.out.print(I2.v ); System.out.print(" "); System.out.println( ((I2) new A()).v);
     System.out.println("Done!");
   }
 }

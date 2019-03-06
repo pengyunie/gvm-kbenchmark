@@ -21,8 +21,8 @@ class O {
     String f() {return "f()";}
 
     A() {
-      System.out.println("O.A: v   = " + v);
-      System.out.println("O.A: f() = " + f());
+      System.out.print("O.A: v   = "); System.out.println( v);
+      System.out.print("O.A: f() = "); System.out.println( f());
     }
   }
 }

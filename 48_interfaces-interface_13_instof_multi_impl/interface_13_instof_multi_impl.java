@@ -7,10 +7,10 @@ public class interface_13_instof_multi_impl {
   public static void main(String[] args) {
     A a = new A();
     B b = new B();
-    System.out.println("A instanceof I1 "+ (a instanceof I1));
-    System.out.println("A instanceof I2 "+ (a instanceof I2));
-    System.out.println("B instanceof I1 "+ (b instanceof I1));
-    System.out.println("B instanceof I2 "+ (b instanceof I2));
+    System.out.print("A instanceof I1 "); System.out.println( (a instanceof I1));
+    System.out.print("A instanceof I2 "); System.out.println( (a instanceof I2));
+    System.out.print("B instanceof I1 "); System.out.println( (b instanceof I1));
+    System.out.print("B instanceof I2 "); System.out.println( (b instanceof I2));
 
     System.out.println("Done!");
   }

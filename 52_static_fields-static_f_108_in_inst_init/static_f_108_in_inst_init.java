@@ -17,7 +17,7 @@ public class static_f_108_in_inst_init {
 
 class A {
   A(int a) {
-    System.out.println("A.A("+a+")");
+    System.out.print("A.A("); System.out.print(a); System.out.println(")");
   }
 
   static int sv;
@@ -27,12 +27,12 @@ class B extends A {
   int v = sv;
 
   {
-    System.out.println("inst init: "+sv);
+    System.out.print("inst init: "); System.out.println(sv);
   }
 
   B() {
     super(sv);
-    System.out.println("constructor: "+sv+", v="+v);
+    System.out.print("constructor: "); System.out.print(sv); System.out.print(", v="); System.out.println(v);
   }
 }
 

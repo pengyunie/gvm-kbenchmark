@@ -5,7 +5,7 @@ Testing the default clause + break combination.
 
 public class switch_08_default_break {
 	static void howMany(int k) {
-    System.out.print(k+": ");
+    System.out.print(k); System.out.print(": ");
 		switch (k) {
 			case 1:
         System.out.print("1 ");

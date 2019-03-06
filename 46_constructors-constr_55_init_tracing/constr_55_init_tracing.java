@@ -15,7 +15,7 @@ class A {
   int b = new Tracer().f(2);
 
   A(int c) {
-    System.out.println("A.A("+c+")");
+    System.out.print("A.A("); System.out.print(c); System.out.println(")");
   }
 }
 
@@ -38,7 +38,7 @@ class B extends A {
 
 class Tracer {
   int f(int a) {
-    System.out.println("Tracer.f(" + a + ")");
+    System.out.print("Tracer.f("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

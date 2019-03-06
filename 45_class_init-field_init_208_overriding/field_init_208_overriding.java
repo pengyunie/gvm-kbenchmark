@@ -28,7 +28,7 @@ class B extends A {
 public class field_init_208_overriding {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println("" + b.a);
+    System.out.print(""); System.out.println( b.a);
     System.out.println("Done!");
   }
 }

@@ -5,7 +5,7 @@ Multiple inheritance, no ambiguities.
 
 public class interface_f_31_multi_inh_no_hiding {
   public static void main(String[] args) {
-    System.out.println(I3.a + " " + I3.b + " " +I3.c + " " + I3.d);
+    System.out.print(I3.a ); System.out.print(" "); System.out.print(I3.b ); System.out.print(" "); System.out.print(I3.c ); System.out.print(" "); System.out.println( I3.d);
     System.out.println("Done!");
   }
 }

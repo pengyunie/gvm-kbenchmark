@@ -10,7 +10,7 @@ public class inner_st_805_in_intf_impl_out_intf {
 
   public static void main(String[] args) {
     I1.IInner in = new C();
-    System.out.println(in.f() + " " + in.g());
+    System.out.print(in.f() ); System.out.print(" "); System.out.println( in.g());
 
     System.out.println("Done!");
   }

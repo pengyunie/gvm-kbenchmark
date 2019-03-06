@@ -12,7 +12,7 @@ public class local_cl_954_encl_vars_in_super {
 
 class Base {
   Base(String s) {
-    System.out.println("Base: "+ s);
+    System.out.print("Base: "); System.out.println( s);
   }
 }
 

@@ -7,10 +7,10 @@ class main {
   main() {
     try {
       int b = 2;
-      System.out.println("try: b = " + b);
+      System.out.print("try: b = "); System.out.println( b);
       return;
     } finally {
-      System.out.println("finally: b = " + b);
+      System.out.print("finally: b = "); System.out.println( b);
     }
   }
 }

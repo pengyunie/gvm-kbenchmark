@@ -21,16 +21,16 @@ public class static_f_105_lookup_general {
     a.staticTestA();
     a.instTestA();
     a.thisQTestA();
-    System.out.println("a.sv="+a.sv);
-    System.out.println("A.sv="+A.sv);
+    System.out.print("a.sv="); System.out.println(a.sv);
+    System.out.print("A.sv="); System.out.println(A.sv);
 
     System.out.println("\nStatic field defined in subclass:");
     B b = new B();
     b.staticTestB();
     b.instTestB();
     b.thisQTestB();
-    System.out.println("b.sv="+b.sv);
-    System.out.println("B.sv="+B.sv);
+    System.out.print("b.sv="); System.out.println(b.sv);
+    System.out.print("B.sv="); System.out.println(B.sv);
 
     System.out.println("\nAccess static field with super qualifier:");
     C c = new C();
@@ -45,39 +45,39 @@ class A {
   static int sv;
 
   void instTestA() {
-    System.out.println("(inst A)sv="+sv);
+    System.out.print("(inst A)sv="); System.out.println(sv);
   }
 
   static void staticTestA() {
-    System.out.println("(static A)sv="+sv);
+    System.out.print("(static A)sv="); System.out.println(sv);
   }
 
   void thisQTestA() {
-    System.out.println("(A)this.sv="+this.sv);
+    System.out.print("(A)this.sv="); System.out.println(this.sv);
   }
 }
 
 class B extends A {
 
   void instTestB() {
-    System.out.println("(inst B)sv="+sv);
+    System.out.print("(inst B)sv="); System.out.println(sv);
   }
 
   static void staticTestB() {
-    System.out.println("(static B)sv="+sv);
+    System.out.print("(static B)sv="); System.out.println(sv);
   }
 
   void thisQTestB() {
-    System.out.println("(B)this.sv="+this.sv);
+    System.out.print("(B)this.sv="); System.out.println(this.sv);
   }
 
   void superQTestB() {
-    System.out.println("(B)super.sv="+super.sv);
+    System.out.print("(B)super.sv="); System.out.println(super.sv);
   }
 }
 
 class C extends B {
   void superQTestC() {
-    System.out.println("(C)super.sv="+super.sv);
+    System.out.print("(C)super.sv="); System.out.println(super.sv);
   }
 }

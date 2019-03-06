@@ -37,15 +37,15 @@ class O {
 
           void test() {
             System.out.println("Inside DeepLocal:");
-            System.out.println("a=" + a);
-            System.out.println("b=" + b);
-            System.out.println("c=" + c);
-            System.out.println("d=" + d);
-            System.out.println("e=" + e);
-            System.out.println("this.a=" + this.a);
-            System.out.println("super.a=" + super.a);
-            System.out.println("Local.this.a=" + Local.this.a);
-            System.out.println("O.this.a=" + O.this.a);
+            System.out.print("a="); System.out.println( a);
+            System.out.print("b="); System.out.println( b);
+            System.out.print("c="); System.out.println( c);
+            System.out.print("d="); System.out.println( d);
+            System.out.print("e="); System.out.println( e);
+            System.out.print("this.a="); System.out.println( this.a);
+            System.out.print("super.a="); System.out.println( super.a);
+            System.out.print("Local.this.a="); System.out.println( Local.this.a);
+            System.out.print("O.this.a="); System.out.println( O.this.a);
           }
         }
 

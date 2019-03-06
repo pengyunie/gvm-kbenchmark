@@ -27,8 +27,8 @@ class O {
     }
 
     void test() {
-      System.out.println("O.A: new O.B = " + new B());
-      System.out.println("O.A: new O.C = " + new C());
+      System.out.print("O.A: new O.B = "); System.out.println( new B());
+      System.out.print("O.A: new O.C = "); System.out.println( new C());
     }
   }
 

@@ -12,8 +12,8 @@ public class exp_type_06_array_access {
     A[] va = new A[2];
     va[1] = new A();
 
-    System.out.println("f(true  ? vb[get(0)] : va[get(1)]): " + f(true  ? vb[get(0)] : va[get(1)]));
-    System.out.println("f(false ? vb[get(0)] : va[get(1)]): " + f(false ? vb[get(0)] : va[get(1)]));
+    System.out.print("f(true  ? vb[get(0)] : va[get(1)]): "); System.out.println( f(true  ? vb[get(0)] : va[get(1)]));
+    System.out.print("f(false ? vb[get(0)] : va[get(1)]): "); System.out.println( f(false ? vb[get(0)] : va[get(1)]));
     System.out.println("Done!");
   }
 
@@ -26,7 +26,7 @@ public class exp_type_06_array_access {
   }
 
   static int get(int a) {
-    System.out.println("get(" + a + ")");
+    System.out.print("get("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

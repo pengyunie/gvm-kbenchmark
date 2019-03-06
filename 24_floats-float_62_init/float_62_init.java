@@ -9,9 +9,9 @@ public class float_62_init {
   static double v;
 
   public static void main(String[] args) {
-    System.out.println("v       = " + v);
-    System.out.println("v + 0   = " + (v + 0));
-    System.out.println("v + 0.0 = " + (v + 0.0));
+    System.out.print("v       = "); System.out.println( v);
+    System.out.print("v + 0   = "); System.out.println( (v + 0));
+    System.out.print("v + 0.0 = "); System.out.println( (v + 0.0));
     System.out.println("Done!");
   }
 }

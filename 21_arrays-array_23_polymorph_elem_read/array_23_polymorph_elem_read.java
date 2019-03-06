@@ -25,12 +25,12 @@ class main {
     vre2[0] = new NullPointerException("npe2");
 
     Object[] ovre = vre2;
-    System.out.println("ovre[0] = " + ovre[0]);
+    System.out.print("ovre[0] = "); System.out.println( ovre[0]);
   }
 
   void printArray(RuntimeException[] v1) {
     for(int i=0; i<v1.length; i++) {
-      System.out.print(v1[i] + " ");
+      System.out.print(v1[i] ); System.out.print( " ");
     }
     System.out.println();
   }

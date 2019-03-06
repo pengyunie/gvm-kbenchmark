@@ -6,7 +6,7 @@ public class throw_13_try_CF_no_throw {
     try {
       System.out.println("no exception");
     } catch (RuntimeException e3) {
-      System.out.println("caught exception: " + e3.toString());
+      System.out.print("caught exception: "); System.out.println( e3.toString());
     } finally {
       System.out.println("finally after no exception");
     }

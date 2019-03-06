@@ -16,7 +16,7 @@ class A {
   static int a = 1;
 
   A(I1 i1) {
-    System.out.println("A: i1 = "+ i1);
+    System.out.print("A: i1 = "); System.out.println( i1);
   }
 }
 

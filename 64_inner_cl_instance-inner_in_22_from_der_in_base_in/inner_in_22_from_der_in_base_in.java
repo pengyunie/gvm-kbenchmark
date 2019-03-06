@@ -25,8 +25,8 @@ class O extends S {
   class B {
     void test() {
       A a = new A();
-      System.out.println("O.B: a.va   = " + a.va);
-      System.out.println("O.B: a.fa() = " + a.fa());
+      System.out.print("O.B: a.va   = "); System.out.println( a.va);
+      System.out.print("O.B: a.fa() = "); System.out.println( a.fa());
     }
   }
 }

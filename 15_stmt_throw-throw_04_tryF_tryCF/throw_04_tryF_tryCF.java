@@ -14,7 +14,7 @@ public class throw_04_tryF_tryCF {
       }
       System.out.println("unreachable");
     } catch (ExA e) {
-      System.out.println("caught ExA: " + e.toString());
+      System.out.print("caught ExA: "); System.out.println( e.toString());
     } finally {
       System.out.println("finally 2");
     }

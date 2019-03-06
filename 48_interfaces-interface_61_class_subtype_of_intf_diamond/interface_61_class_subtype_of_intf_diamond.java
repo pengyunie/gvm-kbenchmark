@@ -8,13 +8,13 @@ Overloading with interfaces as method arguments.
 public class interface_61_class_subtype_of_intf_diamond {
   public static void main(String[] args) {
     Tester t = new Tester();
-    System.out.println("f(IA):   " + t.f((IA)null));
-    System.out.println("f(IB):   " + t.f((IB)null));
-    System.out.println("f(IC):   " + t.f((IC)null));
-    System.out.println("f(IMax): " + t.f((IMax)null));
-    System.out.println("f(A):    " + t.f( (A)null));
-    System.out.println("f(B):    " + t.f( (B)null));
-    System.out.println("f(C):    " + t.f( (C)null));
+    System.out.print("f(IA):   "); System.out.println( t.f((IA)null));
+    System.out.print("f(IB):   "); System.out.println( t.f((IB)null));
+    System.out.print("f(IC):   "); System.out.println( t.f((IC)null));
+    System.out.print("f(IMax): "); System.out.println( t.f((IMax)null));
+    System.out.print("f(A):    "); System.out.println( t.f( (A)null));
+    System.out.print("f(B):    "); System.out.println( t.f( (B)null));
+    System.out.print("f(C):    "); System.out.println( t.f( (C)null));
 
     System.out.println("Done!");
   }

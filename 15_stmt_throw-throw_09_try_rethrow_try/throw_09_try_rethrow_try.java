@@ -5,12 +5,12 @@ public class throw_09_try_rethrow_try {
         if (true) throw new RuntimeException();
         System.out.println("unreachable");
       } catch(RuntimeException e) {
-        System.out.println("rethrowing: " + e.toString());
+        System.out.print("rethrowing: "); System.out.println( e.toString());
         throw e;
       }
       System.out.println("unreachable");
     } catch (RuntimeException e) {
-      System.out.println("caught again: " + e.toString());
+      System.out.print("caught again: "); System.out.println( e.toString());
     }
     System.out.println("Done!");
   }

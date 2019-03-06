@@ -43,9 +43,9 @@ class B extends O.A {
   }
 
   void test() {
-    System.out.println("O.B: av   = " + av);
-    System.out.println("O.B: af() = " + af());
-    System.out.println("O.B: bv   = " + bv);
-    System.out.println("O.B: bf() = " + bf());
+    System.out.print("O.B: av   = "); System.out.println( av);
+    System.out.print("O.B: af() = "); System.out.println( af());
+    System.out.print("O.B: bv   = "); System.out.println( bv);
+    System.out.print("O.B: bf() = "); System.out.println( bf());
   }
 }

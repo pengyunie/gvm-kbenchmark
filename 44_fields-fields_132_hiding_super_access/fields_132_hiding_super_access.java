@@ -61,7 +61,7 @@ public class fields_132_hiding_super_access {
   public static void main(String[] args) {
     B o = new B();
     if (o.m5()) {
-      System.out.println(""+o.m0()+ o.m1()+ o.m2()+ o.m3()+ o.m4());
+      System.out.print(""); System.out.print(o.m0()); System.out.print(o.m1()); System.out.print(o.m2()); System.out.print(o.m3()); System.out.println( o.m4());
     } else
       System.out.println("m5 not returning true");
     System.out.println("Done!");

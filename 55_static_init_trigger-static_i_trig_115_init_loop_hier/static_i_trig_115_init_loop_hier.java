@@ -7,8 +7,8 @@ public class static_i_trig_115_init_loop_hier {
   public static void main(String[] args) {
     B.f();
     System.out.println("main:");
-    System.out.println("A.v=" + A.v);
-    System.out.println("B.v=" + B.v);
+    System.out.print("A.v="); System.out.println( A.v);
+    System.out.print("B.v="); System.out.println( B.v);
     System.out.println("Done!");
   }
 }
@@ -38,7 +38,7 @@ class B extends A {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

@@ -39,9 +39,9 @@ class A {
       }
 
       static void test() {
-        System.out.println("byte arg: " + f((byte)0));
-        System.out.println("int arg:  " + f((int)0));
-        System.out.println("long arg: " + f((long)0));
+        System.out.print("byte arg: "); System.out.println( f((byte)0));
+        System.out.print("int arg:  "); System.out.println( f((int)0));
+        System.out.print("long arg: "); System.out.println( f((long)0));
       }
     }
   }

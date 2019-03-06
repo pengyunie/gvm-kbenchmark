@@ -36,7 +36,7 @@ public class imp_conv_09_bin_prom_cond_op {
     int ir = true ? i : i;
     long lr = true ? l : l;
     char cr = true ? c : c;
-    System.out.println(""+br+" "+sr+" "+ir+" "+lr+" "+cr);
+    System.out.print(""); System.out.print(br); System.out.print(" "); System.out.print(sr); System.out.print(" "); System.out.print(ir); System.out.print(" "); System.out.print(lr); System.out.print(" "); System.out.println(cr);
 
     //case 2
     sr = false ? b : s;
@@ -44,7 +44,7 @@ public class imp_conv_09_bin_prom_cond_op {
     lr = false ? b : l;
     int ir2 = false ? c : s;
     short sr2 = false ? s : b;
-    System.out.println(""+sr+" "+ir+" "+lr+" "+ir2+" "+sr2);
+    System.out.print(""); System.out.print(sr); System.out.print(" "); System.out.print(ir); System.out.print(" "); System.out.print(lr); System.out.print(" "); System.out.print(ir2); System.out.print(" "); System.out.println(sr2);
 
     //case 3
     br = true ? b : 101;
@@ -53,7 +53,7 @@ public class imp_conv_09_bin_prom_cond_op {
     lr = true ? l : 101;
     cr = true ? c : 101;
     byte br2 = true ? 101 : b;
-    System.out.println(""+br+" "+sr+" "+ir+" "+lr+" "+cr+" "+br2);
+    System.out.print(""); System.out.print(br); System.out.print(" "); System.out.print(sr); System.out.print(" "); System.out.print(ir); System.out.print(" "); System.out.print(lr); System.out.print(" "); System.out.print(cr); System.out.print(" "); System.out.println(br2);
 
     System.out.println("Done!");
   }

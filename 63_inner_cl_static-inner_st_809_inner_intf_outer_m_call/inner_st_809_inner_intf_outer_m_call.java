@@ -24,7 +24,7 @@ public class inner_st_809_inner_intf_outer_m_call {
 class A {
 
   static String trace(String s) {
-    System.out.println("trace: " + s);
+    System.out.print("trace: "); System.out.println( s);
     return s;
   }
 

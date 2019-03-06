@@ -29,7 +29,7 @@ class O {
       public String toString() {return "O.test1().Local1: a="+a + " ,b="+b;}
     }
 
-    System.out.println("O.test1(): a="+a + " ,b="+b);
+    System.out.print("O.test1(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.println(b);
 
     System.out.println(new Local1());
   }
@@ -43,7 +43,7 @@ class O {
       public String toString() {return "O.test2().Local2: a="+a + " ,b="+b;}
     }
 
-    System.out.println("O.test2(): a="+a + " ,b="+b);
+    System.out.print("O.test2(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.println(b);
 
     System.out.println(new Local2());
   }

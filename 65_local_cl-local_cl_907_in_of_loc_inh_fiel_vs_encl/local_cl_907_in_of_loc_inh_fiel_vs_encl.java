@@ -28,7 +28,7 @@ class O {
       }
     }
 
-    System.out.println("O.test(): a="+a + " ,b="+b + " ,c="+c);
+    System.out.print("O.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.println(c);
 
     return new Local().new InnerOfLocal();
   }

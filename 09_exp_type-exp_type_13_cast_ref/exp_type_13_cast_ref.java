@@ -10,8 +10,8 @@ public class exp_type_13_cast_ref {
   public static void main(String[] args) {
     Object o1 = new B();
     Object o2 = new A();
-    System.out.println("f(true  ? (B) get(o1) : (A) get(o2)): " + f(true  ? (B) get(o1) : (A) get(o2)));
-    System.out.println("f(false ? (B) get(o1) : (A) get(o2)): " + f(false ? (B) get(o1) : (A) get(o2)));
+    System.out.print("f(true  ? (B) get(o1) : (A) get(o2)): "); System.out.println( f(true  ? (B) get(o1) : (A) get(o2)));
+    System.out.print("f(false ? (B) get(o1) : (A) get(o2)): "); System.out.println( f(false ? (B) get(o1) : (A) get(o2)));
     System.out.println("Done!");
   }
 
@@ -24,7 +24,7 @@ public class exp_type_13_cast_ref {
   }
 
   static Object get(Object o) {
-    System.out.println("get(" + o + ")");
+    System.out.print("get("); System.out.print(o ); System.out.println( ")");
     return o;
   }
 }

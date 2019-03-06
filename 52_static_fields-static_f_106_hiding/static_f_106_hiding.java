@@ -63,17 +63,17 @@ class A {
 
   void instTestA() {
     System.out.print("(inst A):       ");
-    System.out.println("a=" + a + " b=" + b + " c=" + c);
+    System.out.print("a="); System.out.print(a ); System.out.print(" b="); System.out.print(b ); System.out.print(" c="); System.out.println( c);
   }
 
   static void staticTestA() {
     System.out.print("(static A)field:");
-    System.out.println("a=" + a + " c=" + c);
+    System.out.print("a="); System.out.print(a ); System.out.print(" c="); System.out.println( c);
   }
 
   void thisQTestA() {
     System.out.print("(A)this.field:  ");
-    System.out.println("a=" + this.a + " b=" + this.b + " c=" + this.c);
+    System.out.print("a="); System.out.print(this.a ); System.out.print(" b="); System.out.print(this.b ); System.out.print(" c="); System.out.println( this.c);
   }
 }
 
@@ -85,22 +85,22 @@ class B extends A {
 
   void instTestB() {
     System.out.print("(inst B)field:  ");
-    System.out.println("a=" + a + " b=" + b + " c=" + c);
+    System.out.print("a="); System.out.print(a ); System.out.print(" b="); System.out.print(b ); System.out.print(" c="); System.out.println( c);
   }
 
   static void staticTestB() {
     System.out.print("(static B)field:");
-    System.out.println("a=" + a + " b=" + b);
+    System.out.print("a="); System.out.print(a ); System.out.print(" b="); System.out.println( b);
   }
 
   void thisQTestB() {
     System.out.print("(B)this.field:  ");
-    System.out.println("a=" + this.a + " b=" + this.b + " c=" + this.c);
+    System.out.print("a="); System.out.print(this.a ); System.out.print(" b="); System.out.print(this.b ); System.out.print(" c="); System.out.println( this.c);
   }
 
   void superQTestB() {
     System.out.print("(B)super.field: ");
-    System.out.println("a=" + super.a + " b=" + super.b + " c=" + super.c);
+    System.out.print("a="); System.out.print(super.a ); System.out.print(" b="); System.out.print(super.b ); System.out.print(" c="); System.out.println( super.c);
   }
 }
 
@@ -108,22 +108,22 @@ class C extends B {
 
   void instTestC() {
     System.out.print("(inst C)field:  ");
-    System.out.println("a=" + a + " b=" + b + " c=" + c);
+    System.out.print("a="); System.out.print(a ); System.out.print(" b="); System.out.print(b ); System.out.print(" c="); System.out.println( c);
   }
 
   static void staticTestC() {
     System.out.print("(static C)field:");
-    System.out.println("a=" + a + " b=" + b);
+    System.out.print("a="); System.out.print(a ); System.out.print(" b="); System.out.println( b);
   }
 
   void thisQTestC() {
     System.out.print("(C)this.field:  ");
-    System.out.println("a=" + this.a + " b=" + this.b + " c=" + this.c);
+    System.out.print("a="); System.out.print(this.a ); System.out.print(" b="); System.out.print(this.b ); System.out.print(" c="); System.out.println( this.c);
   }
 
   void superQTestC() {
     System.out.print("(C)super.field: ");
-    System.out.println("a=" + super.a + " b=" + super.b + " c=" + super.c);
+    System.out.print("a="); System.out.print(super.a ); System.out.print(" b="); System.out.print(super.b ); System.out.print(" c="); System.out.println( super.c);
   }
 }
 

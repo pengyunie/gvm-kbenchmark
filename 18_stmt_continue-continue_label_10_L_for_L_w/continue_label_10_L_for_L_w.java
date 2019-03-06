@@ -13,7 +13,7 @@ public class continue_label_10_L_for_L_w {
         for(;;)
           continue label_1;
       }
-      System.out.print(j+" ");
+      System.out.print(j); System.out.print(" ");
     }
     System.out.println();
     System.out.println("Done!");

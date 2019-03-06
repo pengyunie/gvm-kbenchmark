@@ -26,19 +26,19 @@ class Impl {
     sc = (char)'z';
 
     //byte to others
-    System.out.println(""+fb(sb)+" "+fs(sb)+" "+fi(sb)+" "+fl(sb));
+    System.out.print(""); System.out.print(fb(sb)); System.out.print(" "); System.out.print(fs(sb)); System.out.print(" "); System.out.print(fi(sb)); System.out.print(" "); System.out.println(fl(sb));
 
     //short to others
-    System.out.println(""+fs(ss)+" "+fi(ss)+" "+fl(ss));
+    System.out.print(""); System.out.print(fs(ss)); System.out.print(" "); System.out.print(fi(ss)); System.out.print(" "); System.out.println(fl(ss));
 
     //int to others
-    System.out.println(""+fi(si)+" "+fl(si));
+    System.out.print(""); System.out.print(fi(si)); System.out.print(" "); System.out.println(fl(si));
 
     //long to others
-    System.out.println(""+fl(sl));
+    System.out.print(""); System.out.println(fl(sl));
 
     //char to others
-    System.out.println(""+fi(sc)+" "+fl(sc)+" "+fc(sc));
+    System.out.print(""); System.out.print(fi(sc)); System.out.print(" "); System.out.print(fl(sc)); System.out.print(" "); System.out.println(fc(sc));
 
     System.out.println("Done!");
   }

@@ -28,7 +28,7 @@ public class A {
   }
 
   public void call() {
-    System.out.println("Calling from " + getClass().getName());
+    System.out.print("Calling from "); System.out.println( getClass().getName());
     f();
     g();
     h();

@@ -6,8 +6,8 @@ new B() : new A()
 
 public class exp_type_02_new_class {
   public static void main(String[] args) {
-    System.out.println("f(true  ? new B() : new A()): " + f(true  ? new B() : new A()));
-    System.out.println("f(false ? new B() : new A()): " + f(false ? new B() : new A()));
+    System.out.print("f(true  ? new B() : new A()): "); System.out.println( f(true  ? new B() : new A()));
+    System.out.print("f(false ? new B() : new A()): "); System.out.println( f(false ? new B() : new A()));
     System.out.println("Done!");
   }
 

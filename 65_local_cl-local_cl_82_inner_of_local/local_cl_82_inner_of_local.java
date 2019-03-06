@@ -35,7 +35,7 @@ class O {
 
       class InnerOfLA {
         void test() {
-          System.out.println("InnerOfLA:" + LA.this.toString());
+          System.out.print("InnerOfLA:"); System.out.println( LA.this.toString());
         }
       }
     }

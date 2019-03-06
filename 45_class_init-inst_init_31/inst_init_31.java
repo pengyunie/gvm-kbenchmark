@@ -6,12 +6,12 @@ class A {
   int a = 2;
 
   {
-    System.out.println("inst init begin, a = " + a);
+    System.out.print("inst init begin, a = "); System.out.println( a);
     a = 3;
   }
 
   A() {
-    System.out.println("constr begin, a = " + a);
+    System.out.print("constr begin, a = "); System.out.println( a);
   }
 }
 

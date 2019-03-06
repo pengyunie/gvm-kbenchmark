@@ -35,18 +35,18 @@ class O {
           final int a = 2;
 
           System.out.println("Before inner DeepLocal declaration:");
-          System.out.println(new DeepLocal() + "\n");
+          System.out.print(new DeepLocal() ); System.out.println( "\n");
 
           class DeepLocal {
             public String toString() {return "O.Local.DeepLocal: a = " + a;}
           }
 
           System.out.println("After inner DeepLocal declaration:");
-          System.out.println(new DeepLocal() + "\n");
+          System.out.print(new DeepLocal() ); System.out.println( "\n");
         }
 
         System.out.println("After inner DeepLocal scope:");
-        System.out.println(new DeepLocal() + "\n");
+        System.out.print(new DeepLocal() ); System.out.println( "\n");
       }
     }
 

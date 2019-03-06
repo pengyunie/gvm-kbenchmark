@@ -18,7 +18,7 @@ class O {
     class Local {
 
       Local(int b) {
-        System.out.println("Local: a = " + a + ", b = " + b);
+        System.out.print("Local: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
       }
 
       void test() {

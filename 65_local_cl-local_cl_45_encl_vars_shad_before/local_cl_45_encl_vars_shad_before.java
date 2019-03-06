@@ -19,7 +19,7 @@ class O {
     final int b = 20;
     {
       final int a = 1;
-      System.out.println("a="+a);
+      System.out.print("a="); System.out.println(a);
     }
 
     class LB {

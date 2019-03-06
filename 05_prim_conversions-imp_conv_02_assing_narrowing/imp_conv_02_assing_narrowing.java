@@ -12,7 +12,7 @@ public class imp_conv_02_assing_narrowing {
 
     //int const to others
     b = 100; s = -1100; i = 1100200; l = 9876543210L; c = 100;
-    System.out.println(""+b+" "+s+" "+i+" "+l+" "+c);
+    System.out.print(""); System.out.print(b); System.out.print(" "); System.out.print(s); System.out.print(" "); System.out.print(i); System.out.print(" "); System.out.print(l); System.out.print(" "); System.out.println(c);
 
     System.out.println("Done!");
   }

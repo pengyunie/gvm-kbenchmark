@@ -11,11 +11,11 @@ Conditional of equal types.
 
 public class op_cond_type_01_eq {
   public static void main(String[] args) {
-    System.out.println("bool  bool : " + f(true ? true : false));
-    System.out.println("int   int  : " + f(true ? 13 : 14));
-    System.out.println("A     A    : " + f(true ? (A)null : (A)null));
-    System.out.println("I     I    : " + f(true ? (I)null : (I)null));
-    System.out.println("int[] int[]: " + f(true ? (int[])null : (int[])null));
+    System.out.print("bool  bool : "); System.out.println( f(true ? true : false));
+    System.out.print("int   int  : "); System.out.println( f(true ? 13 : 14));
+    System.out.print("A     A    : "); System.out.println( f(true ? (A)null : (A)null));
+    System.out.print("I     I    : "); System.out.println( f(true ? (I)null : (I)null));
+    System.out.print("int[] int[]: "); System.out.println( f(true ? (int[])null : (int[])null));
     System.out.println("Done!");
   }
 

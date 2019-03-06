@@ -22,7 +22,7 @@ public class max3 {
         max = c;
       }
     }
-    System.out.println("max = " + max);
+    System.out.print("max = "); System.out.println( max);
     System.out.println("Done!");
 	}
 }

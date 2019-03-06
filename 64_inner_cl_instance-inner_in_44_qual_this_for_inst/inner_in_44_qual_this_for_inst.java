@@ -43,9 +43,9 @@ class O3 extends O2 {
     }
 
     void test() {
-      System.out.println("O3.C: new Inner()           = " + new Inner());
-      System.out.println("O3.C: this.new Inner()      = " + this.new Inner());
-      System.out.println("O3.C: O3.this.new Inner()   = " + O3.this.new Inner());
+      System.out.print("O3.C: new Inner()           = "); System.out.println( new Inner());
+      System.out.print("O3.C: this.new Inner()      = "); System.out.println( this.new Inner());
+      System.out.print("O3.C: O3.this.new Inner()   = "); System.out.println( O3.this.new Inner());
     }
   }
 }

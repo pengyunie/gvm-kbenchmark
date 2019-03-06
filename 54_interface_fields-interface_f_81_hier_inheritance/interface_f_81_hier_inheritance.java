@@ -5,7 +5,7 @@ I2 < I1. Fields with initializer, refering to superinterface static fields
 
 public class interface_f_81_hier_inheritance {
   public static void main(String[] args) {
-    System.out.println("I2.b = " + I2.c);
+    System.out.print("I2.b = "); System.out.println( I2.c);
     System.out.println("Done!");
   }
 }
@@ -22,7 +22,7 @@ interface I2 extends I1 {
 
 class Auxx {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

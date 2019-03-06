@@ -10,9 +10,9 @@ import p2.B;
 
 public class packages_46_import_types_mix {
   public static void main(String[] args) {
-    System.out.println("main   : A = " + new A());
-    System.out.println("main   : B = " + new B());
-    System.out.println("main   : C = " + new C());
+    System.out.print("main   : A = "); System.out.println( new A());
+    System.out.print("main   : B = "); System.out.println( new B());
+    System.out.print("main   : C = "); System.out.println( new C());
     System.out.println("Done!");
   }
 }

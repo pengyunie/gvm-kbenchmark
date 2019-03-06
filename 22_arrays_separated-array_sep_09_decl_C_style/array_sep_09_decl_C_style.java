@@ -34,6 +34,6 @@ class main {
 
     int a = 1, v[] = new int[3];
     v[1] = a;
-    System.out.println(a + " " + v[1]);
+    System.out.print(a ); System.out.print(" "); System.out.println( v[1]);
   }
 }

@@ -4,7 +4,7 @@
 
 public class switch_01_simple {
 	static void howMany(int k) {
-    System.out.print(k+": ");
+    System.out.print(k); System.out.print(": ");
 		switch (k) {
 			case 1 + 0: System.out.print("1 ");
 			case 2: System.out.print("2 ");

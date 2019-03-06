@@ -42,14 +42,14 @@ class O {
       String inf() {return "Inner.inf()";}
 
       void test() {
-        System.out.println("ov = " + ov);
-        System.out.println("of() = " + of());
-        System.out.println("smidv = " + smidv);
-        System.out.println("smidf() = " + smidf());
-        System.out.println("midv = " + midv);
-        System.out.println("midf() = " + midf());
-        System.out.println("inv = " + inv);
-        System.out.println("inf() = " + inf());
+        System.out.print("ov = "); System.out.println( ov);
+        System.out.print("of() = "); System.out.println( of());
+        System.out.print("smidv = "); System.out.println( smidv);
+        System.out.print("smidf() = "); System.out.println( smidf());
+        System.out.print("midv = "); System.out.println( midv);
+        System.out.print("midf() = "); System.out.println( midf());
+        System.out.print("inv = "); System.out.println( inv);
+        System.out.print("inf() = "); System.out.println( inf());
       }
     }
   }

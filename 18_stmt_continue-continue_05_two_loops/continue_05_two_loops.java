@@ -7,13 +7,13 @@ public class continue_05_two_loops {
 
   public static void main(String[] args) {
     for (int k=0; k<3; k++) {
-      System.out.print(k+": ");
+      System.out.print(k); System.out.print(": ");
       int i=0;
       while (i<10) {
         int j = i;
         i++;
         if (j % 2 != 0) continue;
-        System.out.print(j+" ");
+        System.out.print(j); System.out.print(" ");
       }
       System.out.println(", break follows");
       break;

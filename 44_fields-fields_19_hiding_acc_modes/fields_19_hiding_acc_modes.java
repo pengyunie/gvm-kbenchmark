@@ -21,7 +21,7 @@ class B extends A {
 public class fields_19_hiding_acc_modes {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println(b.getA() + " " + b.getSuperA() + " " + ((A) b).a);
+    System.out.print(b.getA() ); System.out.print(" "); System.out.print(b.getSuperA() ); System.out.print(" "); System.out.println( ((A) b).a);
     System.out.println("Done!");
   }
 }

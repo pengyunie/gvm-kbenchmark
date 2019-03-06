@@ -15,7 +15,7 @@ public class inner_st_807_impl_in_intf_and_names {
 
   public static void main(String[] args) {
     System.out.println(new B());
-    System.out.println(B.x + " " + B.y);
+    System.out.print(B.x ); System.out.print(" "); System.out.println( B.y);
 
     System.out.println("Done!");
   }

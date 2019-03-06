@@ -8,11 +8,11 @@ import p.p1.*;
 
 public class packages_47_multi_t_imp_nested_p {
   public static void main(String[] args) {
-    System.out.println("main   : A = " + new A());
-    System.out.println("main   : B = " + new B());
+    System.out.print("main   : A = "); System.out.println( new A());
+    System.out.print("main   : B = "); System.out.println( new B());
     pt.Test test = new pt.Test();
-    System.out.println("pt.Test: A = " + test.createA());
-    System.out.println("pt.Test: B = " + test.createB());
+    System.out.print("pt.Test: A = "); System.out.println( test.createA());
+    System.out.print("pt.Test: B = "); System.out.println( test.createB());
     System.out.println("Done!");
   }
 }

@@ -6,8 +6,8 @@ A < I1{v, getV()} Instantiate A and call getV() that returns v.
 
 public class static_i_trig_206_intf_f_call_init {
   public static void main(String[] args) {
-    System.out.println("A.getA()=" + new A().getA());
-    System.out.println("I1.a=" + I1.a);
+    System.out.print("A.getA()="); System.out.println( new A().getA());
+    System.out.print("I1.a="); System.out.println( I1.a);
     System.out.println("Done!");
   }
 }
@@ -34,7 +34,7 @@ class A implements I1 {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

@@ -25,10 +25,10 @@ public class main_01_is_static {
   }
 
   public static void main(String[] args) {
-    System.out.println("count="+count);
+    System.out.print("count="); System.out.println(count);
     main_01_is_static mainObj = new main_01_is_static();
-    System.out.println("count="+count);
-    System.out.println("mainObj.getId()="+mainObj.getId());
+    System.out.print("count="); System.out.println(count);
+    System.out.print("mainObj.getId()="); System.out.println(mainObj.getId());
     System.out.println("Done!");
   }
 }

@@ -6,8 +6,8 @@ Init triggering chain for class/interface mix.
 
 public class static_i_trig_210_init_chain_i_diam {
   public static void main(String[] args) {
-    System.out.println("I4.d=" + I4.d);
-    System.out.println("I4.c=" + I4.c);
+    System.out.print("I4.d="); System.out.println( I4.d);
+    System.out.print("I4.c="); System.out.println( I4.c);
     System.out.println("Done!");
   }
 }
@@ -30,7 +30,7 @@ interface I4 extends I2, I3 {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

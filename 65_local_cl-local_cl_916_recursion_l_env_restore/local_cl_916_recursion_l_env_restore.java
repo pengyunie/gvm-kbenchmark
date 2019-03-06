@@ -22,7 +22,7 @@ class O {
 
     class Local {
       void test() {
-        System.out.println("Local: level = " + level);
+        System.out.print("Local: level = "); System.out.println( level);
       }
     }
 

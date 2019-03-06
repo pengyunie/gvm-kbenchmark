@@ -17,7 +17,7 @@ public class array_sep_44_side_effect_exp {
     v[0]++;
     v[1]--;
     for(int i=0; i<2; i++) {
-      System.out.print(v[i] + " ");
+      System.out.print(v[i] ); System.out.print( " ");
     }
     System.out.println();
     System.out.println("Done!");

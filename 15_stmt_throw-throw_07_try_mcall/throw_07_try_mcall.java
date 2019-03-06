@@ -12,7 +12,7 @@ class test {
         System.out.println("finally after uncaught exception");
       }
     } catch (RuntimeException e) {
-      System.out.println("caught exception: " + e.toString());
+      System.out.print("caught exception: "); System.out.println( e.toString());
     }
   }
 

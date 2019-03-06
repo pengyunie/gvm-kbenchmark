@@ -9,10 +9,10 @@ public class packages_51_fullyqual_in_qualifiers {
   public static void main(String[] args) {
     new p1.A();
     p1.A.f();
-    System.out.println("p1.A.v = " + p1.A.v);
+    System.out.print("p1.A.v = "); System.out.println( p1.A.v);
     p1.A.v = 7;
     System.out.println("Executed p1.A.v = 7.");
-    System.out.println("p1.A.v = " + p1.A.v);
+    System.out.print("p1.A.v = "); System.out.println( p1.A.v);
     System.out.println("Done!");
   }
 }

@@ -17,7 +17,7 @@ class C {
   }
 
   void print2() {
-    System.out.println(i+ " "+ j);
+    System.out.print(i); System.out.print(" "); System.out.println( j);
   }
 }
 

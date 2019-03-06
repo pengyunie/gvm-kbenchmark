@@ -23,7 +23,7 @@ class main {
       System.out.println(v1);
     } else {
       for(int i=0; i<1; i++) {
-        System.out.print(v1[i] + " ");
+        System.out.print(v1[i] ); System.out.print( " ");
       }
       System.out.println();
     }

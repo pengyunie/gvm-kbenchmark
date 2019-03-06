@@ -5,7 +5,7 @@ public class exp_conv_02_primitive_var_init_cast {
     int i = (int) 1000000;
     long l = (long) 9000000000L;
     char ch = (char) 50000;
-    System.out.println("" + bt + " " + sh + " " + i + " " + l + " " + (int)ch);
+    System.out.print(""); System.out.print(bt ); System.out.print(" "); System.out.print(sh ); System.out.print(" "); System.out.print(i ); System.out.print(" "); System.out.print(l ); System.out.print(" "); System.out.println( (int)ch);
     System.out.println("Done!");
   }
 }

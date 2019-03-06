@@ -47,7 +47,7 @@ class main {
 
   int[] fVInt(int[] v) {
     for(int i=0; i<v.length; i++) {
-      System.out.print(v[i] + " ");
+      System.out.print(v[i] ); System.out.print( " ");
     }
     System.out.println();
     return v;

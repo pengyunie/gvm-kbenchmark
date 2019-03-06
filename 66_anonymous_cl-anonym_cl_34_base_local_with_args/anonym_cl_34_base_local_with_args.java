@@ -27,19 +27,19 @@ class O {
       int a, b;
 
       A(int a, int b) {
-        System.out.println("A: a = "+ a + ", b = "+ b);
+        System.out.print("A: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
         this.a = a;
         this.b = b;
       }
 
       void test() {
-        System.out.println("A.test: a = "+ a + ", b = "+ b + ", O.this.var = "+ O.this.var);
+        System.out.print("A.test: a = "); System.out.print(a ); System.out.print(", b = "); System.out.print(b ); System.out.print(", O.this.var = "); System.out.println( O.this.var);
       }
     }
 
     A a = new A(3, 4) {
       public void test() {
-        System.out.println("anon: " + "O.this.var = "+ O.this.var);
+        System.out.print("anon: "); System.out.print("O.this.var = "); System.out.println( O.this.var);
         super.test();
       }
     };

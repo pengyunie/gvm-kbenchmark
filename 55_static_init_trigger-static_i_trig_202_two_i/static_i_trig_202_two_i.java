@@ -5,10 +5,10 @@ Interfaces I1, I2. Read a field twice in both, interleaved. Trace.
 
 public class static_i_trig_202_two_i {
   public static void main(String[] args) {
-    System.out.println("I1.v= " + I1.v);
-    System.out.println("I2.v= " + I2.v);
-    System.out.println("I1.v= " + I1.v);
-    System.out.println("I2.v= " + I2.v);
+    System.out.print("I1.v= "); System.out.println( I1.v);
+    System.out.print("I2.v= "); System.out.println( I2.v);
+    System.out.print("I1.v= "); System.out.println( I1.v);
+    System.out.print("I2.v= "); System.out.println( I2.v);
     System.out.println("Done!");
   }
 }
@@ -23,7 +23,7 @@ interface I2 {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

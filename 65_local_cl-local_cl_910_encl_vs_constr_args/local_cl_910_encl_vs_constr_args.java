@@ -17,11 +17,11 @@ class O {
 
     class Local {
       Local(int a) {
-        System.out.println("O.test().Local: a="+a + " ,b="+b + " ,c="+c);
+        System.out.print("O.test().Local: a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.println(c);
       }
     }
 
-    System.out.println("O.test(): a="+a + " ,b="+b + " ,c="+c);
+    System.out.print("O.test(): a="); System.out.print(a ); System.out.print(" ,b="); System.out.print(b ); System.out.print(" ,c="); System.out.println(c);
     new Local(2);
   }
 }

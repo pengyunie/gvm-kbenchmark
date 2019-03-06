@@ -14,7 +14,7 @@ class Point {
   }
 
   void printLocation() {
-    System.out.println("x = "+ x+ ", "+ "y = "+ y);
+    System.out.print("x = "); System.out.print(x); System.out.print(", "); System.out.print("y = "); System.out.println( y);
   }
 }
 
@@ -31,7 +31,7 @@ class ColorPoint extends Point {
   }
 
   void printColor() {
-    System.out.println("color = "+ color);
+    System.out.print("color = "); System.out.println( color);
   }
 }
 

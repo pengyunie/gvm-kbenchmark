@@ -38,7 +38,7 @@ class O {
           int e = 50000;
 
           public void test() {
-            System.out.println("deep anon: a = "+ a + ", b = " + b + ", c = " + c + ", d = " + d + ", e = " + e);
+            System.out.print("deep anon: a = "); System.out.print(a ); System.out.print(", b = "); System.out.print(b ); System.out.print(", c = "); System.out.print(c ); System.out.print(", d = "); System.out.print(d ); System.out.print(", e = "); System.out.println( e);
           }
         };
 

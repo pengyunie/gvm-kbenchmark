@@ -17,7 +17,7 @@ class O {
 
     class BaseLocal {
       BaseLocal(int b) {
-        System.out.println("BaseLocal: a = " + a + ", b = " + b);
+        System.out.print("BaseLocal: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
       }
     }
 

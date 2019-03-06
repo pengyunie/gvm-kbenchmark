@@ -30,8 +30,8 @@ class Test {
   static int v;
 
   public synchronized void sync(int id) {
-    System.out.println("Thread " + id + " before: v = " + v);
+    System.out.print("Thread "); System.out.print(id ); System.out.print(" before: v = "); System.out.println( v);
     v = id;
-    System.out.println("Thread " + id + " after:  v = " + v);
+    System.out.print("Thread "); System.out.print(id ); System.out.print(" after:  v = "); System.out.println( v);
   }
 }

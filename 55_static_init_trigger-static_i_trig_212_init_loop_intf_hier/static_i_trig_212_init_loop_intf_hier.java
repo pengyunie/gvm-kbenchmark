@@ -58,7 +58,7 @@ class B extends A {
   }
 
   B() {
-    System.out.println("B.B(), b="+b+", c="+c+", d="+d);
+    System.out.print("B.B(), b="); System.out.print(b); System.out.print(", c="); System.out.print(c); System.out.print(", d="); System.out.println(d);
   }
 
   public void f() {
@@ -68,7 +68,7 @@ class B extends A {
 
 class T {
   static int trace(int a) {
-    System.out.println("trace(" + a + ")");
+    System.out.print("trace("); System.out.print(a ); System.out.println( ")");
     return a;
   }
 }

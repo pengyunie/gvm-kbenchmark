@@ -15,7 +15,7 @@ public class static_f_104_instance_counter {
     A a3 = new A();
     System.out.println(A.nextId);
 
-    System.out.println(a1+" "+a2+" "+a3);
+    System.out.print(a1); System.out.print(" "); System.out.print(a2); System.out.print(" "); System.out.println(a3);
     System.out.println("Done!");
   }
 }

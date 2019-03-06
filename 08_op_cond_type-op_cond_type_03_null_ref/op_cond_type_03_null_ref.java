@@ -10,10 +10,10 @@ Conditional with one type null.
 
 public class op_cond_type_03_null_ref {
   public static void main(String[] args) {
-    System.out.println("A     null : " + f(true ? (A)null : null));
-    System.out.println("null  A    : " + f(true ? null : (A)null));
-    System.out.println("null  I    : " + f(true ? null : (I)null));
-    System.out.println("null  int[]: " + f(true ? null : (int[])null));
+    System.out.print("A     null : "); System.out.println( f(true ? (A)null : null));
+    System.out.print("null  A    : "); System.out.println( f(true ? null : (A)null));
+    System.out.print("null  I    : "); System.out.println( f(true ? null : (I)null));
+    System.out.print("null  int[]: "); System.out.println( f(true ? null : (int[])null));
     System.out.println("Done!");
   }
 

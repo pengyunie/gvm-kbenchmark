@@ -12,11 +12,11 @@ public class anonym_cl_35_base_constr_overl {
 
 abstract class A {
   A(int a) {
-    System.out.println("A: a = "+ a);
+    System.out.print("A: a = "); System.out.println( a);
   }
 
   A(int a, int b) {
-    System.out.println("A: a = "+ a + ", b = " + b);
+    System.out.print("A: a = "); System.out.print(a ); System.out.print(", b = "); System.out.println( b);
   }
 
   abstract void test();

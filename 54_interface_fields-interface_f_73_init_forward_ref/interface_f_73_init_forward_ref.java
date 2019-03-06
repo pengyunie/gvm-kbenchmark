@@ -10,7 +10,7 @@ interface I1 {
 
 public class interface_f_73_init_forward_ref {
   public static void main(String[] args) {
-    System.out.println("" + I1.a + " " + I1.b + " " + I1.c);
+    System.out.print(""); System.out.print(I1.a ); System.out.print(" "); System.out.print(I1.b ); System.out.print(" "); System.out.println( I1.c);
     System.out.println("Done!");
   }
 }

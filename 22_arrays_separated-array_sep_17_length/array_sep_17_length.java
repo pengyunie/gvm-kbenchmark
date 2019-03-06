@@ -26,7 +26,7 @@ class main {
     m[1] = new int[0];
     m[2] = v;
     for(int i=0; i<m.length; i++) {
-      System.out.print(m[i].length + " ");
+      System.out.print(m[i].length ); System.out.print( " ");
     }
     System.out.println();
   }

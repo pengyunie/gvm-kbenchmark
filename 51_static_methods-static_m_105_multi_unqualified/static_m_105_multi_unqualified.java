@@ -15,7 +15,7 @@ class A {
   int a = 10;
 
   void f() {
-    System.out.println("A.f(), a="+a);
+    System.out.print("A.f(), a="); System.out.println(a);
   }
 
   static void s_g() {

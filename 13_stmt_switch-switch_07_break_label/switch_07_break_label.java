@@ -5,7 +5,7 @@ Interaction with break with label.
 
 public class switch_07_break_label {
 	static void howMany(int k) {
-    System.out.print(k+": ");
+    System.out.print(k); System.out.print(": ");
     label_1: {
       switch (k) {
         case 1:

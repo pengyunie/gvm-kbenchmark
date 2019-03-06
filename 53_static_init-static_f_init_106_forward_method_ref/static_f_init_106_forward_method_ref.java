@@ -20,7 +20,7 @@ class A {
 
 public class static_f_init_106_forward_method_ref {
   public static void main(String[] args) {
-    System.out.println("" + A.a + " " + A.b);
+    System.out.print(""); System.out.print(A.a ); System.out.print(" "); System.out.println( A.b);
     System.out.println("Done!");
   }
 }

@@ -6,17 +6,17 @@ class main {
 
   int[] init(int n) {
     int[] x = new int[n];
-    System.out.print("Type "+n+" numbers: ");
+    System.out.print("Type "); System.out.print(n); System.out.print(" numbers: ");
     for (int i = 0; i<n; ++i)
       x[i] = scanner.nextInt();
-    System.out.println("Finished reading the "+n+" numbers");
+    System.out.print("Finished reading the "); System.out.print(n); System.out.println(" numbers");
     return x;
   }
 
   void printArray(int[] x, int n) {
     System.out.println();
     for (int i = 0; i<n; ++i)
-      System.out.print(x[i]+" ");
+      System.out.print(x[i]); System.out.print(" ");
     System.out.println();
   }
 
@@ -101,23 +101,23 @@ class main {
     printArray(x,n);
     System.out.print("Reversing the array ... ");
     reverse(x,n);
-    System.out.print("Done!"+"\n"+"The reversed array is:");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("The reversed array is:");
     printArray(x,n);
     System.out.print("Sorting the array using insertion sort ... ");
     insertionSort(x,n);
-    System.out.print("Done!"+"\n"+"The resulting array is:");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("The resulting array is:");
     printArray(x,n);
     System.out.print("Reversing the array ... ");
     reverse(x,n);
-    System.out.print("Done!"+"\n"+"Sorting the array using bubble sort ... ");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("Sorting the array using bubble sort ... ");
     bubbleSort(x,n);
-    System.out.print("Done!"+"\n"+"The resulting array is:");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("The resulting array is:");
     printArray(x,n);
     System.out.print("Reversing the array ... ");
     reverse(x,n);
-    System.out.print("Done!"+"\n"+"Sorting the array using heap sort ... ");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("Sorting the array using heap sort ... ");
     heapSort(x,n);
-    System.out.print("Done!"+"\n"+"The resulting array is:");
+    System.out.print("Done!"); System.out.print("\n"); System.out.print("The resulting array is:");
     printArray(x,n);
     System.out.println("Done!");
   }

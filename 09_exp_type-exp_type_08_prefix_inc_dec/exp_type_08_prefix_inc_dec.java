@@ -10,16 +10,16 @@ public class exp_type_08_prefix_inc_dec {
   public static void main(String[] args) {
     int b = 1; long a = 10;
 
-    System.out.println("f(true  ? ++b : ++a): " + f(true  ? ++b : ++a));
-    System.out.println("(b a) = (" + b + " " + a + ")");
-    System.out.println("f(false ? ++b : ++a): " + f(false ? ++b : ++a));
-    System.out.println("(b a) = (" + b + " " + a + ")");
+    System.out.print("f(true  ? ++b : ++a): "); System.out.println( f(true  ? ++b : ++a));
+    System.out.print("(b a) = ("); System.out.print(b ); System.out.print(" "); System.out.print(a ); System.out.println( ")");
+    System.out.print("f(false ? ++b : ++a): "); System.out.println( f(false ? ++b : ++a));
+    System.out.print("(b a) = ("); System.out.print(b ); System.out.print(" "); System.out.print(a ); System.out.println( ")");
 
-    System.out.println("f(true  ? --b : --a): " + f(true  ? --b : --a));
-    System.out.println("(b a) = (" + b + " " + a + ")");
+    System.out.print("f(true  ? --b : --a): "); System.out.println( f(true  ? --b : --a));
+    System.out.print("(b a) = ("); System.out.print(b ); System.out.print(" "); System.out.print(a ); System.out.println( ")");
 
-    System.out.println("f(false ? --b : --a): " + f(false ? --b : --a));
-    System.out.println("(b a) = (" + b + " " + a + ")");
+    System.out.print("f(false ? --b : --a): "); System.out.println( f(false ? --b : --a));
+    System.out.print("(b a) = ("); System.out.print(b ); System.out.print(" "); System.out.print(a ); System.out.println( ")");
 
     System.out.println("Done!");
   }

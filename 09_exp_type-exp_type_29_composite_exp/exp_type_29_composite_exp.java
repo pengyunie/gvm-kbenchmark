@@ -7,8 +7,8 @@ public class exp_type_29_composite_exp {
   public static void main(String[] args) {
     int b = 1; long a = 10;
 
-    System.out.println("f(true  ? get(1) + (10 + 100) : get(2) + (10 + 100L)): " + (f(true  ? get(1) + (10 + 100) : get(2) + (10 + 100L))));
-    System.out.println("f(false ? get(1) + (10 + 100) : get(2) + (10 + 100L)): " + (f(false ? get(1) + (10 + 100) : get(2) + (10 + 100L))));
+    System.out.print("f(true  ? get(1) + (10 + 100) : get(2) + (10 + 100L)): "); System.out.println((f(true  ? get(1) + (10 + 100) : get(2) + (10 + 100L))));
+    System.out.print("f(false ? get(1) + (10 + 100) : get(2) + (10 + 100L)): "); System.out.println((f(false ? get(1) + (10 + 100) : get(2) + (10 + 100L))));
 
     System.out.println("Done!");
   }
@@ -22,7 +22,7 @@ public class exp_type_29_composite_exp {
   }
 
   static int get(int a) {
-    System.out.println("get(" + a + ")");
+      System.out.print("get("); System.out.print(a); System.out.println(")");
     return a;
   }
 }

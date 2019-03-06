@@ -11,10 +11,10 @@ public class continue_06_catch_for {
       } catch(RuntimeException ex) {
         System.out.print("never reached");
       }
-      System.out.print(i+" ");
+      System.out.print(i); System.out.print(" ");
     }
     System.out.println();
-    System.out.println("final i = "+ i);
+    System.out.print("final i = "); System.out.println( i);
     System.out.println("Done!");
   }
 }

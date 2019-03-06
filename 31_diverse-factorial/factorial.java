@@ -12,7 +12,7 @@ class main {
   main(String[] args) {
     System.out.print("Input a natural numer: ");
     int n = new Scanner(System.in).nextInt();
-    System.out.println("Factorial of "+n+" is: "+factorial(n));
+    System.out.print("Factorial of "); System.out.print(n); System.out.print(" is: "); System.out.println(factorial(n));
     System.out.println("Done!");
   }
 }
