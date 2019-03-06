@@ -18,10 +18,10 @@ class main {
   main() {
     long[] v = new long[1];
     v[0] = 2100100100;
-    System.out.println(v[0]+v[0]);
+    System.out.println((v[0]+v[0]));
 
     long[][] m = new long[1][1];
     m[0][0] = 2100100100;
-    System.out.println(m[0][0]+m[0][0]);
+    System.out.println((m[0][0]+m[0][0]));
   }
 }
